@@ -17,6 +17,15 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
+- [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) - Good
+
+```
+function order(words){
+	// "is2 Thi1s T4est 3a"
+	// return "Thi1s is2 3a T4est"
+}
+```
+
 
 
 

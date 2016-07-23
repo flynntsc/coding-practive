@@ -18,3 +18,12 @@ var greeting = speak("Mary", "Kate");
 ```
 
 - [Greed is Good](https://www.codewars.com/kata/5270d0d18625160ada0000e4) 累计计分 （HINT: Array、forEach、reduce）- Clever
+- [Write out numbers](https://www.codewars.com/kata/52724507b149fa120600031d) 数值转单词（HINT: Array、Math.floor、%、iteration）- Good
+
+```
+number2words(0) = 'zero'
+number2words(99) = "ninety-nine"
+number2words(100) = "one hundred"
+number2words(1002) = "one thousand two"
+number2words(888888) = "eight hundred eighty-eight thousand eight hundred eighty-eight"
+```
