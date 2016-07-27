@@ -41,7 +41,20 @@ divisors(13); //should return "13 is prime"
 createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
+- [Evil Autocorrect Prank](https://www.codewars.com/kata/538ae2eb7a4ba8c99b000439) 替换指定字符串（Hint: replace、/b）- Good
 
+
+- [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
+
+```
+getDouble(3) => 6
+getDouble(6) => 12
+
+var createIterator = ???
+
+var doubleIterator = createIterator(getDouble, 2); // This means, it runs *getDouble* twice
+doubleIterator(3) => 12
+```
 
 
 
