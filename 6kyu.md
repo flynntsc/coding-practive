@@ -56,5 +56,24 @@ var doubleIterator = createIterator(getDouble, 2); // This means, it runs *getDo
 doubleIterator(3) => 12
 ```
 
+- [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
+
+```
+logOnce = once(console.log)
+logOnce("foo") // -> "foo"
+logOnce("bar") // -> no effect
+```
+
+- [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
+
+```
+f3 = compose( f1 f2 )
+   Is equivalent to...
+f3(a) = f1( f2( a ) )
+
+compose(f , g)(x)
+=> f( g( x ) )
+```
+
 
 
