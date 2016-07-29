@@ -6,3 +6,16 @@
 add(3)(4)  // 7
 add(12)(20) // 32
 ```
+
+- [The Span Function](https://www.codewars.com/kata/the-span-function/solutions) 跨度函数（Hint: for） - Good
+
+```
+function isEven (x) {
+  return Math.abs(x) % 2 === 0;
+}
+
+var arr = [2,4,6,1,8,10];
+
+// This is true
+span(arr, isEven) === [[2,4,6],[1,8,10]]
+```

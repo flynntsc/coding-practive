@@ -75,5 +75,13 @@ compose(f , g)(x)
 => f( g( x ) )
 ```
 
+- [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
+
+```
+chained([a,b,c,d])(input)
+// =>
+d(c(b(a(input))))
+```
+
 
 
