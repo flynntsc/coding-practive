@@ -32,3 +32,5 @@ add_ = defaultArguments(add_,{c:3}); // doesn't do anything, since c isn't an ar
 add_(10); // returns NaN
 add_(10,10); // returns 20
 ```
+
+- [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）
