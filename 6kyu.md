@@ -83,5 +83,13 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
+- [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: reg、replace、reduce）
+
+```
+"Amore, Roma" => valid
+"A man, a plan, a canal: Panama" => valid
+"No 'x' in 'Nixon'" => valid
+"Abba Zabba, you're my only friend" => invalid
+```
 
 
