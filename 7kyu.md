@@ -19,3 +19,13 @@ var arr = [2,4,6,1,8,10];
 // This is true
 span(arr, isEven) === [[2,4,6],[1,8,10]]
 ```
+
+- [Pair Zeros](https://www.codewars.com/kata/pair-zeros/solutions) 过滤数字0（Hint: filter）- Clever
+
+```
+pairZeros([0,0]) // [0]
+pairZeros([0,0,0]) // [0,0]
+pairZeros([1,0,1,0,2,0,0,3,0]) // [1,0,1,2,0,3,0]
+```
+
+
