@@ -28,4 +28,14 @@ pairZeros([0,0,0]) // [0,0]
 pairZeros([1,0,1,0,2,0,0,3,0]) // [1,0,1,2,0,3,0]
 ```
 
+- [Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053) 数值区间求和（Hint: Math、/2）- Clever
 
+```
+Example: 
+GetSum(1, 0) == 1   // 1 + 0 = 1
+GetSum(1, 2) == 3   // 1 + 2 = 3
+GetSum(0, 1) == 1   // 0 + 1 = 1
+GetSum(1, 1) == 1   // 1 Since both are same
+GetSum(-1, 0) == -1 // -1 + 0 = -1
+GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
+```
