@@ -39,3 +39,21 @@ GetSum(1, 1) == 1   // 1 Since both are same
 GetSum(-1, 0) == -1 // -1 + 0 = -1
 GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 ```
+
+- [All, None & Any](https://www.codewars.com/kata/54589f3b52756d34d6000158) 数组扩展方法（Hint: Array、filter）- Clever
+
+```
+[1, 2, 3].all(isGreaterThanZero) => true
+[-1, 0, 2].all(isGreaterThanZero) => false
+[-1, 2, 3].none(isLessThanZero) => false
+[-1, -2, -3].none(isGreaterThanZero) => true
+[-1, 2, 3].any(isGreaterThanZero) => true
+[-1, -2, -3].any(isGreaterThanZero) => false
+
+function isGreaterThanZero (num) {
+  return num > 0;
+}
+function isLessThanZero (num) {
+  return num < 0;
+}
+```
