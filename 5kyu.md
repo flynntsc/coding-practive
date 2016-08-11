@@ -75,3 +75,11 @@ cachedFunction('foo', 'bar'); // complex function should be executed
 cachedFunction('foo', 'bar'); // complex function should not be invoked again, instead the cached result should be returned
 cachedFunction('foo', 'baz'); // should be executed, because the method wasn't invoked before with these arguments
 ```
+
+- [Sum of Pairs](https://www.codewars.com/kata/54d81488b981293527000c8f) 数组中最早符合条件的一对数值（Hint: for、{}）- Clever
+
+```
+sum_pairs([11, 3, 7, 5], 10) // => [3,7]
+sum_pairs([4, 3, 2, 3, 4], 6) // => [4,2]
+sum_pairs([10, 5, 2, 3, 7, 5], 10) // => [3,7]
+```

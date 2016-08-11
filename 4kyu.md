@@ -1,7 +1,7 @@
 ## 4 kyu
 
 
-- [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）
+- [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）- Hard
 
 ```
 function undoRedo(object) {
@@ -14,7 +14,7 @@ function undoRedo(object) {
 	};
 }
 ```
-- [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）
+- [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）- Hard
 
 ```
 function add(a,b) { return a+b;};
@@ -33,4 +33,4 @@ add_(10); // returns NaN
 add_(10,10); // returns 20
 ```
 
-- [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）
+- [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）- Hard
