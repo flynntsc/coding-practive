@@ -57,10 +57,23 @@ function isLessThanZero (num) {
   return num < 0;
 }
 ```
-- [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) 判断是否有重复字符（Hint: regular）- Clever
+- [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) 判断是否有重复字符（Hint: regex）- Clever
 
 ```
 isIsogram( "Dermatoglyphics" ) == true
 isIsogram( "aba" ) == false
 isIsogram( "moOse" ) == false // -- ignore letter case
+```
+
+- [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc) 信用卡格式（Hint: regex、replace）- Clever
+
+```
+maskify("4556364607935616") == "############5616"
+maskify(     "64607935616") ==      "#######5616"
+maskify(               "1") ==                "1"
+maskify(                "") ==                 ""
+
+// "What was the name of your first pet?"
+maskify("Skippy")                                   == "##ippy"
+maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```

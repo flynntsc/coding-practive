@@ -17,7 +17,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-- [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：reg） - Good
+- [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：regex） - Good
 
 ```
 function order(words){
@@ -83,7 +83,7 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
-- [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: reg、replace、reduce）
+- [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: regex、replace、reduce）
 
 ```
 "Amore, Roma" => valid
