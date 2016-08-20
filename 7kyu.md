@@ -86,10 +86,19 @@ maskify("Nananananananananananananananana Batman!") == "########################
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 ```
-- [Complementary DNA](https://www.codewars.com/kata/complementary-dna) 字符串字母替换（Hint: object、replace）- Clever
+- [Complementary DNA](https://www.codewars.com/kata/complementary-dna) 对应DNA串-字符串字母替换（Hint: object、replace）- Clever
 
 ```
 DNAStrand ("ATTGC") # return "TAACG"
 
 DNAStrand ("GTAT") # return "CATA"
+```
+
+- [Descending Order](http://www.codewars.com/kata/descending-order/javascript) 递减顺序(Hint: sort、reverse) - Good
+
+```
+// reverse is better than sort((x,y)=>y-x)
+Input: 145263 Output: 654321
+
+Input: 1254859723 Output: 9875543221
 ```
