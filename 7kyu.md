@@ -102,3 +102,5 @@ Input: 145263 Output: 654321
 
 Input: 1254859723 Output: 9875543221
 ```
+
+- [Product of the main diagonal of a square matrix.](http://www.codewars.com/kata/product-of-the-main-diagonal-of-a-square-matrix) 数组对角乘法（Hint:reduce）- Clever
