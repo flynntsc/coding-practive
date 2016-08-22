@@ -104,3 +104,11 @@ Input: 1254859723 Output: 9875543221
 ```
 
 - [Product of the main diagonal of a square matrix.](http://www.codewars.com/kata/product-of-the-main-diagonal-of-a-square-matrix) 数组对角乘法（Hint:reduce）- Clever
+
+- [Highest and Lowest](http://www.codewars.com/kata/highest-and-lowest/javascript) 取最大值与最小值(Hint: Math、...) - Good
+
+```
+highAndLow("1 2 3 4 5"); // return "5 1"
+highAndLow("1 2 -3 4 5"); // return "5 -3"
+highAndLow("1 9 3 4 -5"); // return "9 -5"
+```
