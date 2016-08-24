@@ -120,3 +120,5 @@ accum("abcd");    // "A-Bb-Ccc-Dddd"
 accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt");    // "C-Ww-Aaa-Tttt"
 ```
+
+- [Regex validate PIN code](http://www.codewars.com/kata/regex-validate-pin-code/javascript) 正则PIN验证（Hint: regex）- Good
