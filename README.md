@@ -1,9 +1,9 @@
 # Codewars
 
-Sum = 1658
+Sum = 1661
 
 - [8 kyu](8kyu.md) 237
-- [7 kyu](7kyu.md) 617
+- [7 kyu](7kyu.md) 620
 - [6 kyu](6kyu.md) 460
 - [5 kyu](5kyu.md) 216
 - [4 kyu](4kyu.md) 87

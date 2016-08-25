@@ -122,3 +122,15 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 ```
 
 - [Regex validate PIN code](http://www.codewars.com/kata/regex-validate-pin-code/javascript) 正则PIN验证（Hint: regex）- Good
+
+- [Vampire Numbers](https://www.codewars.com/kata/54d418bd099d650fa000032d) 数字相乘等于乘数组合（Hint: Array&String）- Good
+
+```
+6 * 21 = 126
+# 6 and 21 would be valid 'fangs' for a vampire number as the 
+# digits 6, 1, and 2 are present in both the product and multiplicands
+
+10 * 11 = 110
+# 110 is not a vampire number since there are three 1's in the
+# multiplicands, but only two 1's in the product
+```
