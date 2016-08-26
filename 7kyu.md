@@ -134,3 +134,5 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 # 110 is not a vampire number since there are three 1's in the
 # multiplicands, but only two 1's in the product
 ```
+
+- [Find the middle element](http://www.codewars.com/kata/find-the-middle-element) 找出中间大小的那个数（Hint: Array）
