@@ -136,3 +136,9 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 ```
 
 - [Find the middle element](http://www.codewars.com/kata/find-the-middle-element) 找出中间大小的那个数（Hint: Array）
+
+- [List to Array](https://www.codewars.com/kata/557dd2a061f099504a000088) next对象迭代为数组（Hint: Iterative）- Clever
+
+```
+{value: 1, next: {value: 2, next: {value: 3, next: null}}} => [1, 2, 3]
+```
