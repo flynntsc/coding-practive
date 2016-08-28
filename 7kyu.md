@@ -142,3 +142,13 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 ```
 {value: 1, next: {value: 2, next: {value: 3, next: null}}} => [1, 2, 3]
 ```
+
+- [Sum of the first nth term of Series](https://www.codewars.com/kata/555eded1ad94b00403000071) 递增求和（Hint: for or recursive）- Clever
+
+```
+Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16 +...
+
+SeriesSum(1) => 1 = "1"
+SeriesSum(2) => 1 + 1/4 = "1.25"
+SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
+```
