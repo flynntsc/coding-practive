@@ -2,14 +2,14 @@
 ## 6 kyu
 
 
-- [Tribonacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db) 斐波纳契数列（HINT: push、slice）- Good
+> [Tribonacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db) 斐波纳契数列（HINT: push、slice）- Good
 
 ```
 [1,1,1,3,5,9,17,31,...]
 [0,0,1,1,2,4,7,13,24,...]
 ```
 
-- [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) 去除连续重复值（HINT: filter）- Clever
+> [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) 去除连续重复值（HINT: filter）- Clever
 
 ```
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
@@ -17,7 +17,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-- [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：regex） - Good
+> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：regex） - Good
 
 ```
 function order(words){
@@ -26,7 +26,7 @@ function order(words){
 }
 ```
 
-- [Find the divisors!
+> [Find the divisors!
 ](https://www.codewars.com/kata/544aed4c4a30184e960010f4) 列出可整除的数字（Hint: /2） - Clever
 
 ```
@@ -35,16 +35,16 @@ divisors(25); //should return [5]
 divisors(13); //should return "13 is prime"
 ```
 
-- [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) 生成电话号码（Hint: for、replace）
+> [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) 生成电话号码（Hint: for、replace）
 
 ```
 createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
-- [Evil Autocorrect Prank](https://www.codewars.com/kata/538ae2eb7a4ba8c99b000439) 替换指定字符串（Hint: replace、/b）- Good
+> [Evil Autocorrect Prank](https://www.codewars.com/kata/538ae2eb7a4ba8c99b000439) 替换指定字符串（Hint: replace、/b）- Good
 
 
-- [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
+> [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
 
 ```
 getDouble(3) => 6
@@ -56,7 +56,7 @@ var doubleIterator = createIterator(getDouble, 2); // This means, it runs *getDo
 doubleIterator(3) => 12
 ```
 
-- [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
+> [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
 
 ```
 logOnce = once(console.log)
@@ -64,7 +64,7 @@ logOnce("foo") // -> "foo"
 logOnce("bar") // -> no effect
 ```
 
-- [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
+> [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
 
 ```
 f3 = compose( f1 f2 )
@@ -75,7 +75,7 @@ compose(f , g)(x)
 => f( g( x ) )
 ```
 
-- [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
+> [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
 
 ```
 chained([a,b,c,d])(input)
@@ -83,7 +83,7 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
-- [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: regex、replace、reduce）
+> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: regex、replace、reduce）- Clever
 
 ```
 "Amore, Roma" => valid
@@ -92,4 +92,10 @@ d(c(b(a(input))))
 "Abba Zabba, you're my only friend" => invalid
 ```
 
+> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、regex）
+
+```
+decodeMorse('.... . -.--   .--- ..- -.. .')
+//should return "HEY JUDE"
+```
 
