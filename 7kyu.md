@@ -160,3 +160,19 @@ SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
 // =>
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 ```
+
+> [Flatten](https://www.codewars.com/kata/5250a89b1625e5decd000413) 数组降维度（Hint:concat）- Good
+
+```
+flatten([1,2,3]) // => [1,2,3]
+flatten([[1,2,3],["a","b","c"],[1,2,3]])  // => [1,2,3,"a","b","c",1,2,3]
+flatten([[[1,2,3]]]) // => [[1,2,3]]
+```
+
+> [7 kyu
+Binary Calculator](https://www.codewars.com/kata/binary-calculator/javascript) 二进制计算（Hint:parseInt、toString）
+
+```
+1 + 1 === 10
+10 + 10 === 100
+```
