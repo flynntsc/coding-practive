@@ -185,3 +185,10 @@ chained = push(chained, 2)
 chained = push(chained, 1)
 push(chained, 8) === 8 -> 1 -> 2 -> 3 -> null
 ```
+> [Complete The Pattern #2](https://www.codewars.com/kata/55733d3ef7c43f8b0700007c) 字符串拼接模式（Hint: for、String） - Clever
+
+```
+pattern(1)  => '1'
+pattern(2) => "21\n2"
+pattern(5) => "54321\n5432\n543\n54\n5"
+```

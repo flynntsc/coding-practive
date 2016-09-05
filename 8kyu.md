@@ -15,3 +15,11 @@ doubleChar("1234!_ ") ==> "11223344!!__  "
 ```
 [1,-4,7,12] => 1 + 7 + 12 = 20
 ```
+> [Nth Root of a Number](https://www.codewars.com/kata/5520714decb43308ea000083) 求根（Hint:Math.pow）
+
+```
+root(4, 2);   // 2 (the square root of 4 is 2 , 2^2 = 4);
+root(8, 3);   // 2 (the cube root of 8 is 2   , 2^3 = 8);
+root(256, 4); // 4 (the 4th root of 256 is 4  , 4^4 = 256);
+root(9, 2);   // 3 (the square root of 9 is 3 , 3^2 = 9)
+```
