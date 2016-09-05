@@ -169,10 +169,19 @@ flatten([[1,2,3],["a","b","c"],[1,2,3]])  // => [1,2,3,"a","b","c",1,2,3]
 flatten([[[1,2,3]]]) // => [[1,2,3]]
 ```
 
-> [7 kyu
-Binary Calculator](https://www.codewars.com/kata/binary-calculator/javascript) 二进制计算（Hint:parseInt、toString）
+> [Binary Calculator](https://www.codewars.com/kata/binary-calculator/javascript) 二进制计算（Hint:parseInt、toString）- Good
 
 ```
 1 + 1 === 10
 10 + 10 === 100
+```
+
+> [Linked Lists - Push & BuildOneTwoThree](https://www.codewars.com/kata/linked-lists-push-and-buildonetwothree)   （Hint:new、function）- Hard
+
+```
+var chained = null
+chained = push(chained, 3)
+chained = push(chained, 2)
+chained = push(chained, 1)
+push(chained, 8) === 8 -> 1 -> 2 -> 3 -> null
 ```
