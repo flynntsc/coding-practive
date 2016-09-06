@@ -192,3 +192,9 @@ pattern(1)  => '1'
 pattern(2) => "21\n2"
 pattern(5) => "54321\n5432\n543\n54\n5"
 ```
+
+> [Tug-o'-War](https://www.codewars.com/kata/tug-o-war) 两个数组大小比较结果（Hint: if、Array）- Clever
+
+```
+[[5,0,3,2,1], [1,6,8,2,9]]  // 11 < 26 ; "Team 2 wins!"
+```
