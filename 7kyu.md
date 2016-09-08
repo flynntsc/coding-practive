@@ -199,7 +199,7 @@ pattern(5) => "54321\n5432\n543\n54\n5"
 [[5,0,3,2,1], [1,6,8,2,9]]  // 11 < 26 ; "Team 2 wins!"
 ```
 
-> [Invalid Input - Error Handling #1](https://www.codewars.com/kata/invalid-input-error-handling-number-1) 元音字母过滤计数（Hint: regex,replace）
+> [Invalid Input - Error Handling #1](https://www.codewars.com/kata/invalid-input-error-handling-number-1) 元音字母过滤计数（Hint: regex,replace）- Clever
 
 ```
 Input: getCount('test')
@@ -213,4 +213,10 @@ Output: {vowels:0,consonants:0}
 
 Input getCount()
 Output: {vowels:0,consonants:0}
+```
+
+> [Find the capitals](https://www.codewars.com/kata/find-the-capitals-1) 字符串中大写的位置（Hint:Array、String） - Clever
+
+```
+Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 ```
