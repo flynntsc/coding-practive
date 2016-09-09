@@ -220,3 +220,13 @@ Output: {vowels:0,consonants:0}
 ```
 Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 ```
+
+> [](https://www.codewars.com/kata/sequencesum) 序列化排序（Hint: Array） - Clever
+
+```
+5 -> [0, 1, 3, 6, 10, 15]
+
+-5 -> [0, -1, -3, -6, -10, -15]
+
+7 -> [0, 1, 3, 6, 10, 15, 21, 28]
+```
