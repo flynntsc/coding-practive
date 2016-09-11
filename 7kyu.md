@@ -221,7 +221,7 @@ Output: {vowels:0,consonants:0}
 Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 ```
 
-> [](https://www.codewars.com/kata/sequencesum) 序列化排序（Hint: Array） - Clever
+> [SequenceSum](https://www.codewars.com/kata/sequencesum) 序列化排序（Hint: Array） - Clever
 
 ```
 5 -> [0, 1, 3, 6, 10, 15]
@@ -230,3 +230,5 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 
 7 -> [0, 1, 3, 6, 10, 15, 21, 28]
 ```
+
+> [Collatz Conjecture Length](https://www.codewars.com/kata/collatz-conjecture-length) 考拉兹猜想个数计算（Hint: while）- Clever
