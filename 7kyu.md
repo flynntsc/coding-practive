@@ -185,6 +185,19 @@ chained = push(chained, 2)
 chained = push(chained, 1)
 push(chained, 8) === 8 -> 1 -> 2 -> 3 -> null
 ```
+
+
+> [Complete The Pattern #1](https://www.codewars.com/kata/complete-the-pattern-number-1) n个n数字排列连接（Hint: Array(n)、for）- Clever
+
+```
+pattern(5)
+1
+22
+333
+4444
+55555
+```
+
 > [Complete The Pattern #2](https://www.codewars.com/kata/55733d3ef7c43f8b0700007c) 字符串拼接模式（Hint: for、String） - Clever
 
 ```
@@ -192,6 +205,8 @@ pattern(1)  => '1'
 pattern(2) => "21\n2"
 pattern(5) => "54321\n5432\n543\n54\n5"
 ```
+
+> [Complete The Pattern #3 (Horizontal Image of #2)](http://www.codewars.com/kata/557341907fbf439911000022) 字符串拼接模式(Hint: for)
 
 > [Tug-o'-War](https://www.codewars.com/kata/tug-o-war) 两个数组大小比较结果（Hint: if、Array）- Clever
 
@@ -232,3 +247,4 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 ```
 
 > [Collatz Conjecture Length](https://www.codewars.com/kata/collatz-conjecture-length) 考拉兹猜想个数计算（Hint: while）- Clever
+
