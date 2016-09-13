@@ -248,3 +248,11 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 
 > [Collatz Conjecture Length](https://www.codewars.com/kata/collatz-conjecture-length) 考拉兹猜想个数计算（Hint: while）- Clever
 
+
+> [Insert dashes](https://www.codewars.com/kata/insert-dashes) 字符串插入符号（Hint: regex、Array）- Clever
+
+```
+insertDash(454793) //'4547-9-3'
+insertDash(123456) //'123456'
+insertDash(1003567) //'1003-567'
+```
