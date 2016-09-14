@@ -256,3 +256,13 @@ insertDash(454793) //'4547-9-3'
 insertDash(123456) //'123456'
 insertDash(1003567) //'1003-567'
 ```
+
+> [String to integer conversion](https://www.codewars.com/kata/string-to-integer-conversion/) 过滤出'纯'数值（Hint:regex）- Good
+
+```
+myParseInt("1") // 1
+myParseInt("  1 ") // 1
+myParseInt("08") // 8
+myParseInt("5 friends") // NaN
+myParseInt("16.5") // NaN
+```
