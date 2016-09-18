@@ -251,7 +251,7 @@ Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 
 > [Insert dashes](https://www.codewars.com/kata/insert-dashes) 字符串插入符号（Hint: regex、Array）- Clever
 
-```
+```js
 insertDash(454793) //'4547-9-3'
 insertDash(123456) //'123456'
 insertDash(1003567) //'1003-567'
@@ -259,10 +259,22 @@ insertDash(1003567) //'1003-567'
 
 > [String to integer conversion](https://www.codewars.com/kata/string-to-integer-conversion/) 过滤出'纯'数值（Hint:regex）- Good
 
-```
+```js
 myParseInt("1") // 1
 myParseInt("  1 ") // 1
 myParseInt("08") // 8
 myParseInt("5 friends") // NaN
 myParseInt("16.5") // NaN
+```
+
+> [Lazily executing a function](https://www.codewars.com/kata/5458d4d2cbae2a9438000389) 懒执行函数（Hint:bind、apply）-Clever
+
+```js
+function add (a, b) {
+  return a + b;
+}
+
+var lazy_value = make_lazy(add, 2, 3);
+
+lazy_value() => 5
 ```
