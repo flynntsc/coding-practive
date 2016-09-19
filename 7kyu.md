@@ -278,3 +278,7 @@ var lazy_value = make_lazy(add, 2, 3);
 
 lazy_value() => 5
 ```
+
+> [Replace multiples with string](https://www.codewars.com/kata/replace-multiples-with-string) 替换数字为字符串（Hint:%、for）- Clever
+
+
