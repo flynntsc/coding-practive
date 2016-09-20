@@ -266,6 +266,13 @@ myParseInt("08") // 8
 myParseInt("5 friends") // NaN
 myParseInt("16.5") // NaN
 ```
+> [Unpacking Arguments](https://www.codewars.com/kata/unpacking-arguments) VS [Lazily executing a function](https://www.codewars.com/kata/5458d4d2cbae2a9438000389) 对比下 - Good
+
+```js
+spread(someFunction, [1, true, "Foo", "bar"] ) 
+// is the same as...
+someFunction(1, true, "Foo", "bar")
+```
 
 > [Lazily executing a function](https://www.codewars.com/kata/5458d4d2cbae2a9438000389) 懒执行函数（Hint:bind、apply）-Clever
 
