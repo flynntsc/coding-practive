@@ -289,3 +289,13 @@ lazy_value() => 5
 > [Replace multiples with string](https://www.codewars.com/kata/replace-multiples-with-string) 替换数字为字符串（Hint:%、for）- Clever
 
 
+
+> [Singleton Pattern](https://www.codewars.com/kata/singleton-pattern) 单例模式-类（Hint: instance）
+
+```js
+var obj1 = new Singleton();
+var obj2 = new Singleton();
+obj1 === obj2; // => true
+obj1.test = 1;
+obj2.test; // => 1
+```
