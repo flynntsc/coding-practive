@@ -306,3 +306,15 @@ obj2.test; // => 1
 unusedDigits(12, 34, 56, 78) // "09"
 unusedDigits(2015, 8, 26) // "3479"
 ```
+
+> [Recursion #1 - Factorial](https://www.codewars.com/kata/recursion-number-1-factorial) 递归函数#1（Hint: Recursion）- Good
+
+```
+5! = 5 * 4 * 3 * 2 * 1 = 120
+```
+
+> [Recursion #2 - Fibonacci](http://www.codewars.com/kata/recursion-number-2-fibonacci)递归函数#1（Hint: Recursion）- Good
+
+```
+f(n) = f(n-1) + f(n-2)
+```
