@@ -299,3 +299,10 @@ obj1 === obj2; // => true
 obj1.test = 1;
 obj2.test; // => 1
 ```
+
+> [Filter unused digits](https://www.codewars.com/kata/filter-unused-digits) 筛选出未使用的数字（Hint: RegExp、replace）- Clever
+
+```js
+unusedDigits(12, 34, 56, 78) // "09"
+unusedDigits(2015, 8, 26) // "3479"
+```
