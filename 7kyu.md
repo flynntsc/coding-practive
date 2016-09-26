@@ -335,3 +335,13 @@ countArara(3) 'adak anane'
 
 countArara(8) 'adak adak adak adak'
 ```
+
+> [Monotone travel](https://www.codewars.com/kata/monotone-travel/javascript) 判断前者是否必然不小于后者（Hint: every）- Clever
+
+```js
+isMonotone([1,2,3]) == true
+isMonotone([1,1,2]) == true
+isMonotone([1])     == true
+isMonotone([3,2,1]) == false
+isMonotone([3,2,2]) == false
+```
