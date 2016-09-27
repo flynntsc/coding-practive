@@ -345,3 +345,11 @@ isMonotone([1])     == true
 isMonotone([3,2,1]) == false
 isMonotone([3,2,2]) == false
 ```
+
+> [Converting integer to currency format](https://www.codewars.com/kata/converting-integer-to-currency-format) 格式化价钱数值（Hint:Regex）- Clever
+
+```js
+123456 -> "123,456"
+1234 -> "1,234"
+123 -> "123"
+```
