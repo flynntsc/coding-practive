@@ -353,3 +353,5 @@ isMonotone([3,2,2]) == false
 1234 -> "1,234"
 123 -> "123"
 ```
+
+> [](https://www.codewars.com/kata/reversing-fun) 数字递归颠倒（Hint: Recursion）- Clever
