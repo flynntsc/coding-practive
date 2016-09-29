@@ -288,7 +288,8 @@ lazy_value() => 5
 
 > [Replace multiples with string](https://www.codewars.com/kata/replace-multiples-with-string) 替换数字为字符串（Hint:%、for）- Clever
 
-
+```
+```
 
 > [Singleton Pattern](https://www.codewars.com/kata/singleton-pattern) 单例模式-类（Hint: instance）
 
@@ -355,3 +356,19 @@ isMonotone([3,2,2]) == false
 ```
 
 > [](https://www.codewars.com/kata/reversing-fun) 数字递归颠倒（Hint: Recursion）- Clever
+
+```
+```
+
+> [Candy problem](https://www.codewars.com/kata/candy-problem/javascript) 补充一个类（Hint:结构函数）- Clever
+
+```
+class Block {
+  constructor(data){}
+  getWidth(){}
+  getLength(){}
+  getHeight(){}
+  getVolume(){}
+  getSurfaceArea(){}
+}
+```
