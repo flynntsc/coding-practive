@@ -362,7 +362,7 @@ isMonotone([3,2,2]) == false
 
 > [Candy problem](https://www.codewars.com/kata/candy-problem/javascript) 补充一个类（Hint:结构函数）- Clever
 
-```
+```js
 class Block {
   constructor(data){}
   getWidth(){}
@@ -371,4 +371,11 @@ class Block {
   getVolume(){}
   getSurfaceArea(){}
 }
+```
+> [Character Counter](https://www.codewars.com/kata/character-counter) 判断字符串内每个单元是否重复一致（Hint:Object）- Clever
+
+```js
+validateWord('abcabc') // true
+validateWord('abcabcd') // false
+validateWord('123abc!') // true
 ```
