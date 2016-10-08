@@ -379,3 +379,13 @@ validateWord('abcabc') // true
 validateWord('abcabcd') // false
 validateWord('123abc!') // true
 ```
+
+> [Zebulan's Nightmare](https://www.codewars.com/kata/zebulans-nightmare) 字符串替换（Hint:Regex）- Clever
+
+```js
+zebulansNightmare('camel_case') == 'camelCase'
+zebulansNightmare('zebulans_nightmare') == 'zebulansNightmare'
+zebulansNightmare('get_string') == 'getString'
+zebulansNightmare('convert_to_uppercase') == 'convertToUppercase'
+zebulansNightmare('main') == 'main'
+```
