@@ -389,3 +389,13 @@ zebulansNightmare('get_string') == 'getString'
 zebulansNightmare('convert_to_uppercase') == 'convertToUppercase'
 zebulansNightmare('main') == 'main'
 ```
+
+>[sort by example](https://www.codewars.com/kata/sort-by-example/) 依据另一个数组排序（Hint:sort）- Clever
+
+```js
+Arr: [1,3,4,4,4,4,5]
+
+Example Arr: [4,1,2,3,5]
+
+Result: [4,4,4,4,1,3,5]
+```
