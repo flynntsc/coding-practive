@@ -99,10 +99,16 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
 ```
 
->[IQ Test](https://www.codewars.com/kata/iq-test) 筛选与其他不同奇偶数字的位置（Hint: map、reduce）- Clever
+> [IQ Test](https://www.codewars.com/kata/iq-test) 筛选与其他不同奇偶数字的位置（Hint: map、reduce）- Clever
 
 ```js
 iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even
 
 iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
+```
+
+> [Find the odd int](https://www.codewars.com/kata/find-the-odd-int) 找出那个唯一的奇数个数的数值（Hint:^）- Clever
+
+```js
+findOd([1,3,1]) // 3
 ```
