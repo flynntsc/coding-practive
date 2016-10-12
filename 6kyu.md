@@ -107,8 +107,20 @@ iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers 
 iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
 ```
 
-> [Find the odd int](https://www.codewars.com/kata/find-the-odd-int) 找出那个唯一的奇数个数的数值（Hint:^）- Clever
+> [Find the odd int](https://www.codewars.com/kata/find-the-odd-int) 找出那个唯一的奇数个数的数值（Hint:\^,reduce）- Clever
 
 ```js
 findOd([1,3,1]) // 3
+```
+
+> [https://www.codewars.com/kata/find-the-parity-outlier](https://www.codewars.com/kata/find-the-parity-outlier) 找出唯一的一个奇/偶数（Hint:filter）- Clever
+
+```js
+[2, 4, 0, 100, 4, 11, 2602, 36]
+
+Should return: 11
+
+[160, 3, 1719, 19, 11, 13, -21]
+
+Should return: 160
 ```
