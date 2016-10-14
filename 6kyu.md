@@ -133,3 +133,12 @@ findEvenIndex([1,100,50,-51,1,1]) // 1
 findEvenIndex([1,2,3,4,5,6]) // -1
 findEvenIndex([20,10,30,10,10,15,35]) // 3
 ```
+
+> [Stop gninnipS My sdroW!](https://www.codewars.com/kata/stop-gninnips-my-sdrow) 指定字符串中的单词反序（Hint: Regex,replace）- Clever
+
+```js
+spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
+spinWords( "This is a test") => returns "This is a test" 
+spinWords( "This is another test" )=> returns "This is rehtona test"
+```
+
