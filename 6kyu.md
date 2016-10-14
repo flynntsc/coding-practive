@@ -142,3 +142,11 @@ spinWords( "This is a test") => returns "This is a test"
 spinWords( "This is another test" )=> returns "This is rehtona test"
 ```
 
+> [Dubstep](https://www.codewars.com/kata/dubstep) 替换去除指定单词并拼接（Hint:split、filter）- Clever
+
+```js
+songDecoder("AWUBBWUBC") //"A B C"
+songDecoder("AWUBWUBWUBBWUBWUBWUBC") //"A B C"
+songDecoder("WUBAWUBBWUBCWUB") // "A B C"
+```
+
