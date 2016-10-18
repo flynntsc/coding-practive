@@ -177,3 +177,18 @@ digital_root(493193)
 => 1 + 1
 => 2
 ```
+
+> [Word a10n (abbreviation)](https://www.codewars.com/kata/word-a10n-abbreviation) 字符串替换（Hint: Regex,replace）- Good
+
+```js
+abbreviate("elephant-rides are really fun!")
+//          ^^^^^^^^*^^^^^*^^^*^^^^^^*^^^*
+// words (^):   "elephant" "rides" "are" "really" "fun"
+//                123456     123     1     1234     1
+// ignore short words:               X              X
+
+// abbreviate:    "e6t"     "r3s"  "are"  "r4y"   "fun"
+// all non-word characters (*) remain in place
+//                     "-"      " "    " "     " "     "!"
+=== "e6t-r3s are r4y fun!"
+```
