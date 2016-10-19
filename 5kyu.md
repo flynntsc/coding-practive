@@ -90,3 +90,12 @@ sum_pairs([10, 5, 2, 3, 7, 5], 10) // => [3,7]
 // y = 2 * x + 1 and z = 3 * x + 1
 u = [1, 3, 4, 7, 9, 10, 13, 15, 19, 21, 22, 27, ...]
 ```
+
+> [Directions Reduction](https://www.codewars.com/kata/directions-reduction) 东西南北的减少（Hint:reduce,Regex）- Clever
+
+```js
+
+dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]) => ["WEST"]
+dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
+
+```
