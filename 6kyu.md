@@ -192,3 +192,9 @@ abbreviate("elephant-rides are really fun!")
 //                     "-"      " "    " "     " "     "!"
 === "e6t-r3s are r4y fun!"
 ```
+
+> [Multiples of 3 and 5](https://www.codewars.com/kata/multiples-of-3-and-5)能整除3和5的数值之和（Hint:%）- Clever
+
+```js
+// <10 => 3+5+6+9 => 23
+```
