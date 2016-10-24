@@ -198,3 +198,15 @@ abbreviate("elephant-rides are really fun!")
 ```js
 // <10 => 3+5+6+9 => 23
 ```
+
+> [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) 字符串中重复/无重复的转化（Hint:String、Array）- Clever
+
+```js
+"din" => "((("
+
+"recede" => "()()()"
+
+"Success" => ")())())"
+
+"(( @" => "))(("
+```
