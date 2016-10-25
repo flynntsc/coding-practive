@@ -17,7 +17,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：regex） - Good
+> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regex） - Good
 
 ```
 function order(words){
@@ -83,7 +83,7 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
-> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: regex、replace、reduce）- Clever
+> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regex、replace、reduce）- Clever
 
 ```
 "Amore, Roma" => valid
@@ -92,7 +92,7 @@ d(c(b(a(input))))
 "Abba Zabba, you're my only friend" => invalid
 ```
 
-> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、regex）
+> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regex）
 
 ```
 decodeMorse('.... . -.--   .--- ..- -.. .')
@@ -210,3 +210,15 @@ abbreviate("elephant-rides are really fun!")
 
 "(( @" => "))(("
 ```
+
+> [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
+
+```js
+ persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
+                       // and 4 has only one digit
+
+ persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
+                        // 1*2*6 = 12, and finally 1*2 = 2
+
+ persistence(4) === 0 // because 4 is already a one-digit number
+ ```
