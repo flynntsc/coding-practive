@@ -214,6 +214,7 @@ abbreviate("elephant-rides are really fun!")
 > [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
 
 ```js
+
  persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
                        // and 4 has only one digit
 
@@ -221,4 +222,9 @@ abbreviate("elephant-rides are really fun!")
                         // 1*2*6 = 12, and finally 1*2 = 2
 
  persistence(4) === 0 // because 4 is already a one-digit number
+ 
  ```
+
+
+> [Multi-tap Keypad Text Entry on an Old Mobile Phone](https://www.codewars.com/kata/54a2e93b22d236498400134b) 九宫格输入法按键次数计算（Hint:Array、Switch）- Clever
+
