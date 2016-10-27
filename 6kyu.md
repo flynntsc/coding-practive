@@ -215,11 +215,9 @@ abbreviate("elephant-rides are really fun!")
 
 ```js
 
- persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4
-                       // and 4 has only one digit
+ persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one digit
 
- persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
-                        // 1*2*6 = 12, and finally 1*2 = 2
+ persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126, // 1*2*6 = 12, and finally 1*2 = 2
 
  persistence(4) === 0 // because 4 is already a one-digit number
  
@@ -228,3 +226,7 @@ abbreviate("elephant-rides are really fun!")
 
 > [Multi-tap Keypad Text Entry on an Old Mobile Phone](https://www.codewars.com/kata/54a2e93b22d236498400134b) 九宫格输入法按键次数计算（Hint:Array、Switch）- Clever
 
+> [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：) - Clever
+
+```
+```
