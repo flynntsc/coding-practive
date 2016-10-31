@@ -213,20 +213,31 @@ abbreviate("elephant-rides are really fun!")
 
 > [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
 
-```js
-
- persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one digit
+```
+persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one digit
 
  persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126, // 1*2*6 = 12, and finally 1*2 = 2
 
  persistence(4) === 0 // because 4 is already a one-digit number
- 
- ```
+```
 
 
 > [Multi-tap Keypad Text Entry on an Old Mobile Phone](https://www.codewars.com/kata/54a2e93b22d236498400134b) 九宫格输入法按键次数计算（Hint:Array、Switch）- Clever
 
+```
+
+```
+
 > [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：) - Clever
 
 ```
+
+```
+
+> [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times) 过滤超过指定个数的数组（Hint:Object、filter）- Clever
+
+```js
+deleteNth([1, 1, 1, 1], 2) // return [1,1]
+
+deleteNth([20, 37, 20, 21], 1) // return [20,37,21]
 ```
