@@ -241,3 +241,10 @@ deleteNth([1, 1, 1, 1], 2) // return [1,1]
 
 deleteNth([20, 37, 20, 21], 1) // return [20,37,21]
 ```
+
+> [Format a string of names like 'Bart, Lisa & Maggie'](https://www.codewars.com/kata/53368a47e38700bd8300030d/solutions/javascript) 拼接数组中对象的属性（Hint:reduce、map、replace）- Clever
+
+```js
+list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lisa & Maggie'list([ {name: 'Bart'}, {name: 'Lisa'} ])// returns 'Bart & Lisa'list([ {name: 'Bart'} ])// returns 'Bart'list([])// returns ''
+
+```
