@@ -248,3 +248,13 @@ deleteNth([20, 37, 20, 21], 1) // return [20,37,21]
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lisa & Maggie'list([ {name: 'Bart'}, {name: 'Lisa'} ])// returns 'Bart & Lisa'list([ {name: 'Bart'} ])// returns 'Bart'list([])// returns ''
 
 ```
+
+> [Checking Groups](https://www.codewars.com/kata/checking-groups) 检测括号是否配对（Hint:Object）- Good
+
+```js
+// True
+({})[[]()][{()}]
+
+// False
+{(})([][])
+```
