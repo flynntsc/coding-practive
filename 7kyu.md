@@ -399,3 +399,11 @@ Example Arr: [4,1,2,3,5]
 
 Result: [4,4,4,4,1,3,5]
 ```
+
+> [Money, Money, Money](https://www.codewars.com/kata/money-money-money) 计算本金几年才能达到一个数值（Hint:for、Math.log）- Clever
+
+```
+ Let P be the Principal = 1000.00        Let I be the Interest Rate = 0.05        Let T be the Tax Rate = 0.18        Let D be the Desired Sum = 1100.00After 1st Year -->  P = 1041.00After 2nd Year -->  P = 1083.86After 3rd Year -->  P = 1128.30
+```
+
+
