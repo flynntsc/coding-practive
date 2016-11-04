@@ -258,3 +258,23 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 // False
 {(})([][])
 ```
+
+> [Regexp Basics - is it IPv4 address?](https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address) 判断是否为IPv4地址（Hint:Regex）- Clever
+
+```js
+"".ipv4Address() // false
+"127.0.0.1".ipv4Address() // true
+"0.0.0.0".ipv4Address() // true
+"255.255.255.255".ipv4Address() // true
+"10.20.30.40".ipv4Address() // true
+"10.256.30.40".ipv4Address() // false
+"10.20.030.40".ipv4Address() // false
+"127.0.1".ipv4Address() // false
+"127.0.0.0.1".ipv4Address() // false
+"..255.255".ipv4Address() // false
+"127.0.0.1\n".ipv4Address() // false
+"\n127.0.0.1".ipv4Address() // false
+" 127.0.0.1".ipv4Address() // false
+"127.0.0.1 ".ipv4Address() // false
+" 127.0.0.1 ".ipv4Address() // false
+```
