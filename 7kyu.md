@@ -411,3 +411,9 @@ Result: [4,4,4,4,1,3,5]
 ```
 
 ```
+
+> [mkdir -p](https://www.codewars.com/kata/mkdir-p) 判断路径若不存在则创建（Hint:fs、path、reduce）- Clever
+
+```
+mkdirp('/','tmp','made','some','dir') // will make the directory /tmp/made/some/dir
+```
