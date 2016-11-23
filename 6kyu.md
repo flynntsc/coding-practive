@@ -278,3 +278,11 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 "127.0.0.1 ".ipv4Address() // false
 " 127.0.0.1 ".ipv4Address() // false
 ```
+
+> [Rank Vector](https://www.codewars.com/kata/rank-vector) 排序位置标示（Hint:indexOf）- Good
+
+```
+ranks([9,3,6,10]) = [2,4,3,1]
+
+ranks([3,3,3,3,3,5,1]) = [2,2,2,2,2,1,7]
+```
