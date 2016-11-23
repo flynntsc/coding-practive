@@ -308,3 +308,19 @@ namedOne.fullName = "Tom" // -> no : lastName missing
 namedOne.fullName = "TomDonnovan" // -> no : no space between first & last names
 namedOne.fullName // -> "Bill Smith" (unchanged)
 ```
+
+> [Adjacent pairs in a string](https://www.codewars.com/kata/adjacent-pairs-in-a-string) 临近相同单词的个数（Hint:Regex、match、\1）- Clever
+
+```js
+//returns 0
+countAdjacentPairs('')
+
+// returns 1
+countAdjacentPairs('cat dog dog')
+
+// returns 1 (The first pair has been matched, and will be ignored from then on).
+countAdjacentPairs('dog dog dog')
+
+// returns 2
+countAdjacentPairs('cat cat dog dog cat')
+```
