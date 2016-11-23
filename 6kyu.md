@@ -286,3 +286,25 @@ ranks([9,3,6,10]) = [2,4,3,1]
 
 ranks([3,3,3,3,3,5,1]) = [2,2,2,2,2,1,7]
 ```
+
+> ["this" is an other problem](https://www.codewars.com/kata/this-is-an-other-problem) 构造函数的值变化监听（Hint:Object.defineProperty）- Good
+
+```js
+var namedOne = new NamedOne("Naomi","Wang")
+
+namedOne.firstName = "John"
+namedOne.lastName = "Doe"
+// ...then...
+namedOne.fullName // -> "John Doe"
+
+// -- And :
+namedOne.fullName = "Bill Smith"
+// ...then...
+namedOne.firstName // -> "Bill"
+namedOne.lastName  // -> "Smith"
+
+// -- But :
+namedOne.fullName = "Tom" // -> no : lastName missing
+namedOne.fullName = "TomDonnovan" // -> no : no space between first & last names
+namedOne.fullName // -> "Bill Smith" (unchanged)
+```
