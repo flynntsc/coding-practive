@@ -417,3 +417,17 @@ Result: [4,4,4,4,1,3,5]
 ```
 mkdirp('/','tmp','made','some','dir') // will make the directory /tmp/made/some/dir
 ```
+
+> [Is valid identifier?](https://www.codewars.com/kata/is-valid-identifier) 单词正则判断（Hint:Regex）- Good
+
+```
+Examples of valid identifiers:
+i
+wo_rd
+b2h
+
+Examples of invalid identifiers:
+1i
+wo rd
+!b2h
+```
