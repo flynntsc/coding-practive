@@ -281,7 +281,7 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 
 > [Rank Vector](https://www.codewars.com/kata/rank-vector) 排序位置标示（Hint:indexOf）- Good
 
-```
+```js
 ranks([9,3,6,10]) = [2,4,3,1]
 
 ranks([3,3,3,3,3,5,1]) = [2,2,2,2,2,1,7]
@@ -355,7 +355,7 @@ arr === [2, 1, 3, 4, 7, 11, 18, 29, 47, 76]
 
 > [DNA Sequence Tester](https://www.codewars.com/kata/dna-sequence-tester) DNA序列配对测试（Hint:indexOf）- Clever
 
-```
+```js
 seq1 = 'GTCTTAGTGTAGCTATGCATGC';  // NB up-down
 seq2 = 'GCATGCATAGCTACACTACGAC';  // NB up-down
 
@@ -378,4 +378,13 @@ checkDNA (seq1, seq2);
 // (seq1)       up-GCGCTGCTAGCTGATCGA-down
 //                 ||||||||||||||||||
 // (seq2)  down-CATCGCGACGATCGACTAGCTAGCATGCA-up
+```
+
+> [Word Patterns](https://www.codewars.com/kata/word-patterns) 单词是否同规律排列（Hint:map、indexOf、every）- Clever
+
+```js
+wordPattern('abab', 'truck car truck car') === true
+wordPattern('aaaa', 'dog dog dog dog') === true
+wordPattern('abab', 'apple banana banana apple') === false
+wordPattern('aaaa', 'cat cat dog cat') === false
 ```
