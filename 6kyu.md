@@ -352,3 +352,30 @@ for(i = 0;i < 10;i++){
 }
 arr === [2, 1, 3, 4, 7, 11, 18, 29, 47, 76]
 ```
+
+> [DNA Sequence Tester](https://www.codewars.com/kata/dna-sequence-tester) DNA序列配对测试（Hint:indexOf）- Clever
+
+```
+seq1 = 'GTCTTAGTGTAGCTATGCATGC';  // NB up-down
+seq2 = 'GCATGCATAGCTACACTACGAC';  // NB up-down
+
+checkDNA (seq1, seq2);
+// --> false
+
+// Because there is a sequence mismatch at position 4:
+// (seq1)    up-GTCTTAGTGTAGCTATGCATGC-down
+//              ||| ||||||||||||||||||
+// (seq2)  down-CAGCATCACATCGATACGTACG-up
+
+
+seq1 = 'GCGCTGCTAGCTGATCGA';             // NB up-down
+seq2 = 'ACGTACGATCGATCAGCTAGCAGCGCTAC';  // NB up-down
+
+checkDNA (seq1, seq2);
+// --> true
+
+// Because one strand is entirely bonded by the other:
+// (seq1)       up-GCGCTGCTAGCTGATCGA-down
+//                 ||||||||||||||||||
+// (seq2)  down-CATCGCGACGATCGACTAGCTAGCATGCA-up
+```
