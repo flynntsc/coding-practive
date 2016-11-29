@@ -388,3 +388,9 @@ wordPattern('aaaa', 'dog dog dog dog') === true
 wordPattern('abab', 'apple banana banana apple') === false
 wordPattern('aaaa', 'cat cat dog cat') === false
 ```
+
+> [知乎上问题](https://zhuanlan.zhihu.com/p/23981897) 判断 N 个布尔值是否全部相等（Hint:arr.indexOf） - Clever
+
+```js
+return arr.indexOf(!arr[0]) < 0
+```
