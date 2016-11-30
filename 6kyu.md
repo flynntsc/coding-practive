@@ -394,3 +394,10 @@ wordPattern('aaaa', 'cat cat dog cat') === false
 ```js
 return arr.indexOf(!arr[0]) < 0
 ```
+
+> [Multiples of 3 and 5 redux](https://www.codewars.com/kata/multiples-of-3-and-5-redux) 3或5的倍数之和（Hint: | 0）- Clever
+
+```js
+solution (10) // => 23 = 3 + 5 + 6 + 9
+solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
+```
