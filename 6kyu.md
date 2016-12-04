@@ -401,3 +401,9 @@ return arr.indexOf(!arr[0]) < 0
 solution (10) // => 23 = 3 + 5 + 6 + 9
 solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 ```
+
+> [Calculate the function f(x) for a simple linear sequence (Easy)](http://www.codewars.com/kata/calculate-the-function-f-x-for-a-simple-linear-sequence-easy) 写出公式（Hint:三元符号）- Clever
+
+```
+
+```
