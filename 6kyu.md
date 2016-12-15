@@ -407,3 +407,5 @@ solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 ```
 
 ```
+
+> [String incrementer](https://www.codewars.com/kata/string-incrementer) 字符串加1（Hint:slice）- Clever
