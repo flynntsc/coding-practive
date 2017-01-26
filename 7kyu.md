@@ -431,3 +431,13 @@ Examples of invalid identifiers:
 wo rd
 !b2h
 ```
+> [Two to One](https://www.codewars.com/kata/two-to-one/javascript) 过滤并排序重复字符串（Hint:Set）- Good
+
+```
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+longest(a, b) -> "abcdefklmopqwxy"
+
+a = "abcdefghijklmnopqrstuvwxyz"
+longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
+```
