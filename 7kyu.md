@@ -441,3 +441,16 @@ longest(a, b) -> "abcdefklmopqwxy"
 a = "abcdefghijklmnopqrstuvwxyz"
 longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 ```
+
+> [Round to the next 5.](https://www.codewars.com/kata/round-to-the-next-5/javascript) 下一个整除5的数值（Hint: Math、不用循环）- Clever
+
+```
+input:    output:
+0    ->   0
+2    ->   5
+3    ->   5
+12   ->   15
+21   ->   25
+30   ->   30
+etc.
+```
