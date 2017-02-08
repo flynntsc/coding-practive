@@ -454,3 +454,9 @@ input:    output:
 30   ->   30
 etc.
 ```
+
+> [Chinese Zodiac](https://www.codewars.com/kata/chinese-zodiac/javascript) 中国十二生肖（Hint:Array）- Good
+
+```
+
+```
