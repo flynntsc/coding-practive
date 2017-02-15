@@ -409,3 +409,17 @@ solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 ```
 
 > [String incrementer](https://www.codewars.com/kata/string-incrementer) 字符串加1（Hint:slice）- Clever
+
+```
+```
+
+>[Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
+
+```
+a = [121, 144, 19, 161, 19, 144, 19, 11] 
+b = [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19]
+
+a,b = []、null...
+
+comp(a, b)
+```
