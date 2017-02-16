@@ -413,7 +413,7 @@ solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 ```
 ```
 
->[Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
+> [Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
 
 ```
 a = [121, 144, 19, 161, 19, 144, 19, 11] 
@@ -423,3 +423,9 @@ a,b = []、null...
 
 comp(a, b)
 ```
+
+> [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 数值二进制1的数量（Hint:>>=、toString）- Clever
+
+```
+1234 => 10011010010 => 5 个 1
+``` 
