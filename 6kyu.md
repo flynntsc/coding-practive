@@ -424,7 +424,7 @@ a,b = []、null...
 comp(a, b)
 ```
 
-> [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 数值二进制1的数量（Hint:>>=、toString）- Clever
+> [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 计算数值二进制1的数量（Hint:>>=、toString）- Clever
 
 ```
 1234 => 10011010010 => 5 个 1
