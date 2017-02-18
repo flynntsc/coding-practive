@@ -99,3 +99,13 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]) => ["WEST
 dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
 
 ```
+
+>[Merged String Checker](https://www.codewars.com/kata/merged-string-checker/javascript) 判读str是否由str1和str2组合（Hint：recursion）- Clever
+
+```
+'codewars' is a merge from 'cdw' and 'oears':
+
+    s:  c o d e w a r s   = codewars
+part1:  c   d   w         = cdw
+part2:    o   e   a r s   = oears
+```
