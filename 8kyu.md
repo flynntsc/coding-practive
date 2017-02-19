@@ -23,3 +23,10 @@ root(8, 3);   // 2 (the cube root of 8 is 2   , 2^3 = 8);
 root(256, 4); // 4 (the 4th root of 256 is 4  , 4^4 = 256);
 root(9, 2);   // 3 (the square root of 9 is 3 , 3^2 = 9)
 ```
+
+> [Sum without highest and lowest number](https://www.codewars.com/kata/sum-without-highest-and-lowest-number/javascript) 计算除最小和最大值外之和（Hint：slice小细节）- Good
+
+```
+{ 6, 2, 1, 8, 10 } => 16
+{ 1, 1, 11, 2, 3 } => 6
+```
