@@ -109,3 +109,11 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
 part1:  c   d   w         = cdw
 part2:    o   e   a r s   = oears
 ```
+
+>[Weight for weight](https://www.codewars.com/kata/weight-for-weight/javascript) 数值之和以及字符串值的排序（Hint: localeCompare）- Good
+
+```
+56 65 74 100 99 68 86 180 90" ordered by numbers weights becomes: "100 180 90 56 65 74 68 86 99"
+
+orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123") // "11 11 2000 10003 22 123 1234000 44444444 9999"
+```
