@@ -479,3 +479,5 @@ function Fighter(name, health, damagePerAttack) {
         this.toString = function() { return this.name; }
 }
 ```
+
+> [Remove HTML tags using regexp](https://www.codewars.com/kata/remove-html-tags-using-regexp/javascript)用正则过滤掉html标签（Hint:regex）
