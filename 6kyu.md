@@ -429,3 +429,20 @@ comp(a, b)
 ```
 1234 => 10011010010 => 5 个 1
 ``` 
+
+>[Moves in squared strings (II)](https://www.codewars.com/kata/moves-in-squared-strings-ii/javascript)含换行符的字符串颠倒2（Hint:replace,regex）- Clever
+
+```
+let s = "abcd\nefgh\nijkl\nmnop"
+oper(rot, s) => "ponm\nlkji\nhgfe\ndcba"
+oper(selfie_and_rot, s) => "abcd....\nefgh....\nijkl....\nmnop....\n....ponm\n....lkji\n....hgfe\n....dcba"
+```
+
+>[Moves in squared strings (III)](http://www.codewars.com/kata/moves-in-squared-strings-iii/javascript) 含换行符的字符串颠倒3（Hint: map）- Clever
+
+```
+let s = "abcd\nefgh\nijkl\nmnop"
+oper(diag_1_sym, s) => "aeim\nbfjn\ncgko\ndhlp"
+oper(rot_90_clock, s) => "miea\nnjfb\nokgc\nplhd"
+oper(selfie_and_diag1, s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
+```
