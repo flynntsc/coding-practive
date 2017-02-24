@@ -117,3 +117,13 @@ part2:    o   e   a r s   = oears
 
 orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123") // "11 11 2000 10003 22 123 1234000 44444444 9999"
 ```
+
+> [Coding with Squared Strings](https://www.codewars.com/kata/coding-with-squared-strings/javascript) 正方形字符串的编译反编译运用（Hint:regexp、reduce、map）- Clever
+
+```
+t = "I.was.going.fishing.that.morning.at.ten.o'clock"
+
+code(t) -> "c.nhsoI\nltiahi.\noentinw\ncng.nga\nk..mg.s\n\voao.f.\n\v'trtig"
+
+decode(code(t)) == "I.was.going.fishing.that.morning.at.ten.o'clock"
+```

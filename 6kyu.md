@@ -17,7 +17,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regex） - Good
+> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regexp） - Good
 
 ```
 function order(words){
@@ -83,7 +83,7 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
-> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regex、replace、reduce）- Clever
+> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regexp、replace、reduce）- Clever
 
 ```
 "Amore, Roma" => valid
@@ -92,7 +92,7 @@ d(c(b(a(input))))
 "Abba Zabba, you're my only friend" => invalid
 ```
 
-> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regex）
+> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regexp）
 
 ```
 decodeMorse('.... . -.--   .--- ..- -.. .')
@@ -134,7 +134,7 @@ findEvenIndex([1,2,3,4,5,6]) // -1
 findEvenIndex([20,10,30,10,10,15,35]) // 3
 ```
 
-> [Stop gninnipS My sdroW!](https://www.codewars.com/kata/stop-gninnips-my-sdrow) 指定字符串中的单词反序（Hint: Regex,replace）- Clever
+> [Stop gninnipS My sdroW!](https://www.codewars.com/kata/stop-gninnips-my-sdrow) 指定字符串中的单词反序（Hint: Regexp,replace）- Clever
 
 ```js
 spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
@@ -178,7 +178,7 @@ digital_root(493193)
 => 2
 ```
 
-> [Word a10n (abbreviation)](https://www.codewars.com/kata/word-a10n-abbreviation) 字符串替换（Hint: Regex,replace）- Good
+> [Word a10n (abbreviation)](https://www.codewars.com/kata/word-a10n-abbreviation) 字符串替换（Hint: Regexp,replace）- Good
 
 ```js
 abbreviate("elephant-rides are really fun!")
@@ -259,7 +259,7 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 {(})([][])
 ```
 
-> [Regexp Basics - is it IPv4 address?](https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address) 判断是否为IPv4地址（Hint:Regex）- Clever
+> [Regexp Basics - is it IPv4 address?](https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address) 判断是否为IPv4地址（Hint:Regexp）- Clever
 
 ```js
 "".ipv4Address() // false
@@ -309,7 +309,7 @@ namedOne.fullName = "TomDonnovan" // -> no : no space between first & last names
 namedOne.fullName // -> "Bill Smith" (unchanged)
 ```
 
-> [Adjacent pairs in a string](https://www.codewars.com/kata/adjacent-pairs-in-a-string) 临近相同单词的个数（Hint:Regex、match、\1）- Clever
+> [Adjacent pairs in a string](https://www.codewars.com/kata/adjacent-pairs-in-a-string) 临近相同单词的个数（Hint:Regexp、match、\1）- Clever
 
 ```js
 //returns 0
@@ -430,7 +430,7 @@ comp(a, b)
 1234 => 10011010010 => 5 个 1
 ``` 
 
->[Moves in squared strings (II)](https://www.codewars.com/kata/moves-in-squared-strings-ii/javascript)含换行符的字符串颠倒2（Hint:replace,regex）- Clever
+>[Moves in squared strings (II)](https://www.codewars.com/kata/moves-in-squared-strings-ii/javascript)字符串正方形颠倒旋转2（Hint:replace,Regexp）- Clever
 
 ```
 let s = "abcd\nefgh\nijkl\nmnop"
@@ -438,7 +438,7 @@ oper(rot, s) => "ponm\nlkji\nhgfe\ndcba"
 oper(selfie_and_rot, s) => "abcd....\nefgh....\nijkl....\nmnop....\n....ponm\n....lkji\n....hgfe\n....dcba"
 ```
 
->[Moves in squared strings (III)](http://www.codewars.com/kata/moves-in-squared-strings-iii/javascript) 含换行符的字符串颠倒3（Hint: map）- Clever
+>[Moves in squared strings (III)](http://www.codewars.com/kata/moves-in-squared-strings-iii/javascript) 字符串正方形颠倒旋转3（Hint: map）- Clever
 
 ```
 let s = "abcd\nefgh\nijkl\nmnop"
