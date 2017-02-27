@@ -30,3 +30,10 @@ root(9, 2);   // 3 (the square root of 9 is 3 , 3^2 = 9)
 { 6, 2, 1, 8, 10 } => 16
 { 1, 1, 11, 2, 3 } => 6
 ```
+>[To square(root) or not to square(root)](https://www.codewars.com/kata/to-square-root-or-not-to-square-root/javascript) 过滤数组求平方根或平方（Hint:map、%1判断整数方法）- Clever
+
+```
+If the number has an integer square root, take this, otherwise square the number.
+
+[4,3,9,7,2,1] -> [2,9,3,49,4,1]
+```
