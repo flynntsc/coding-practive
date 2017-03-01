@@ -446,3 +446,12 @@ oper(diag_1_sym, s) => "aeim\nbfjn\ncgko\ndhlp"
 oper(rot_90_clock, s) => "miea\nnjfb\nokgc\nplhd"
 oper(selfie_and_diag1, s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
 ```
+>[Password generator](https://www.codewars.com/kata/password-generator/javascript) 密码生成器（Hint:Math.random、题目可以更难一点）- Good
+
+```
+6 - 20 characters long
+contains at least one lowercase letter
+contains at least one uppercase letter
+contains at least one number
+contains only alphanumeric characters (no special characters)
+```
