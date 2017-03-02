@@ -347,7 +347,7 @@ isMonotone([3,2,1]) == false
 isMonotone([3,2,2]) == false
 ```
 
-> [Converting integer to currency format](https://www.codewars.com/kata/converting-integer-to-currency-format) 格式化价钱数值（Hint:Regex）- Clever
+> [Converting integer to currency format](https://www.codewars.com/kata/converting-integer-to-currency-format) 格式化价钱数值（Hint:Regexp）- Clever
 
 ```js
 123456 -> "123,456"
@@ -380,7 +380,7 @@ validateWord('abcabcd') // false
 validateWord('123abc!') // true
 ```
 
-> [Zebulan's Nightmare](https://www.codewars.com/kata/zebulans-nightmare) 字符串替换（Hint:Regex）- Clever
+> [Zebulan's Nightmare](https://www.codewars.com/kata/zebulans-nightmare) 字符串替换（Hint:Regexp）- Clever
 
 ```js
 zebulansNightmare('camel_case') == 'camelCase'
@@ -418,7 +418,7 @@ Result: [4,4,4,4,1,3,5]
 mkdirp('/','tmp','made','some','dir') // will make the directory /tmp/made/some/dir
 ```
 
-> [Is valid identifier?](https://www.codewars.com/kata/is-valid-identifier) 单词正则判断（Hint:Regex）- Good
+> [Is valid identifier?](https://www.codewars.com/kata/is-valid-identifier) 单词正则判断（Hint:Regexp）- Good
 
 ```
 Examples of valid identifiers:
@@ -480,4 +480,17 @@ function Fighter(name, health, damagePerAttack) {
 }
 ```
 
-> [Remove HTML tags using regexp](https://www.codewars.com/kata/remove-html-tags-using-regexp/javascript)用正则过滤掉html标签（Hint:regex）
+> [Remove HTML tags using regexp](https://www.codewars.com/kata/remove-html-tags-using-regexp/javascript)用正则过滤掉html标签（Hint:Regexp）- Good
+
+```
+
+```
+
+>[Correct the time-string](https://www.codewars.com/kata/correct-the-time-string/javascript) 格式化时间的时分秒（Hint：Regexp、slice、Date基础妙用）- Clever
+
+```
+"09:10:01" -> "09:10:01"
+"11:70:10" -> "12:10:10"
+"19:99:99" -> "20:40:39"
+"24:01:01" -> "00:01:01"
+```
