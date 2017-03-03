@@ -455,3 +455,15 @@ contains at least one uppercase letter
 contains at least one number
 contains only alphanumeric characters (no special characters)
 ```
+
+>[Simple Fun #170: Sum Groups
+](https://www.codewars.com/kata/simple-fun-number-170-sum-groups/javascript) 过滤数组直到没有连续的奇、偶数（Hint:for、Recursion）- Clever
+
+```
+[2, 1, 2, 2, 6, 5, 0, 2, 0, 5, 5, 7, 7, 4, 3, 3, 9]  -->
+        2+2+6       0+2+0     5+5+7+7       3+3+9
+[2, 1,   10,    5,    2,        24,     4,   15   ] -->
+                             2+24+4
+[2, 1,   10,    5,             30,           15   ]
+The length of final array is 6
+```
