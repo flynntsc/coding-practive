@@ -494,3 +494,11 @@ function Fighter(name, health, damagePerAttack) {
 "19:99:99" -> "20:40:39"
 "24:01:01" -> "00:01:01"
 ```
+>[Simple Fun #49: Decipher](https://www.codewars.com/kata/simple-fun-number-49-decipher/javascript) 编译数字串为字母（Hint:match、replace、[...arr]、String.fromCharCode()）- Clever
+
+```
+charCode('e') = 101, 
+charCode('a') = 97, 
+charCode('s') = 115 
+charCode('y') = 121.
+```
