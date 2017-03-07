@@ -502,3 +502,10 @@ charCode('a') = 97,
 charCode('s') = 115 
 charCode('y') = 121.
 ```
+>[Simple Fun #182: Happy "g"](https://www.codewars.com/kata/simple-fun-number-182-happy-g/javascript) 字符串中是否都是紧邻的g（Hint:Regexp）- Good
+
+```
+For str = "gg0gg3gg0gg", the output should be true.
+
+For str = "gog", the output should be false.
+```
