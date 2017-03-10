@@ -519,3 +519,12 @@ Because the 0th bus is red and goes to his school.
 
 For busesColors = ["red","red","red","blue"], goingToSchool = [false, false, false, true]), the result should be 3.
 ```
+
+>[A Gift Well Spent](https://www.codewars.com/kata/a-gift-well-spent/javascript) 求数组两个数值之和等价的位置（Hint:indexOf(str, fromIndex)没注意到的第二个参数）- Good
+
+```
+buy(2,[1,1])       = [0,1]
+buy(3,[1,1])       = null
+buy(5,[5,2,3,4,5]) = [1,2]
+buy(5,[1,2,3,4,5]) = [0,3] // the values at [1,2] also adds up to five, but [0,3] < [1,2]
+```
