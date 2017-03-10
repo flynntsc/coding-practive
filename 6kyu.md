@@ -467,3 +467,10 @@ contains only alphanumeric characters (no special characters)
 [2, 1,   10,    5,             30,           15   ]
 The length of final array is 6
 ```
+
+>[Cycle Detection: greedy algorithm](https://www.codewars.com/kata/cycle-detection-greedy-algorithm/javascript) 符合c=ax+b公式的数组求值（Hint:for、object键值的运用）- Clever
+
+```
+cycle([2,3,4,2,3,4]) // [0,3]
+cycle([1,2,3,4]) // []
+```
