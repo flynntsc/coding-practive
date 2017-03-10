@@ -509,3 +509,13 @@ For str = "gg0gg3gg0gg", the output should be true.
 
 For str = "gog", the output should be false.
 ```
+
+>[Simple Fun #173: A Hero Go To The School](https://www.codewars.com/kata/simple-fun-number-173-a-hero-go-to-the-school/javascript) 简单的循环判断（Hint: for...of简单但没写好）- Good 
+
+```
+For busesColors = ["red","red","blue"], goingToSchool = [true, true, true]), the result should be 0.
+
+Because the 0th bus is red and goes to his school.
+
+For busesColors = ["red","red","red","blue"], goingToSchool = [false, false, false, true]), the result should be 3.
+```
