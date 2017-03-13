@@ -528,3 +528,14 @@ buy(3,[1,1])       = null
 buy(5,[5,2,3,4,5]) = [1,2]
 buy(5,[1,2,3,4,5]) = [0,3] // the values at [1,2] also adds up to five, but [0,3] < [1,2]
 ```
+>[Simple Fun #136: Missing Values](https://www.codewars.com/kata/simple-fun-number-136-missing-values/javascript) 找出数组中只出现一次跟两次的数值（Hint：双filter的运用）- Clever
+
+```
+or arr=[1, 1, 1, 2, 2, 3], the result should be 18
+
+3 x 3 x 2 = 18
+
+For arr=[6, 5, 4, 100, 6, 5, 4, 100, 6, 5, 4, 200], the result should be 4000000
+
+200 x 200 x 100 = 4000000
+```
