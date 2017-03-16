@@ -474,3 +474,14 @@ The length of final array is 6
 cycle([2,3,4,2,3,4]) // [0,3]
 cycle([1,2,3,4]) // []
 ```
+
+>[Counting Duplicates](https://www.codewars.com/kata/counting-duplicates/javascript) 字符串中重复字的个数（Hint：sort、Regexp、\1、filter、lastIndexOf）- Clever 
+
+```
+"abcde" -> 0 # no characters repeats more than once
+"aabbcde" -> 2 # 'a' and 'b'
+"aabbcdeB" -> 2 # 'a' and 'b'
+"indivisibility" -> 1 # 'i'
+"Indivisibilities" -> 2 # 'i' and 's'
+"aa11" -> 2 # 'a' and '1'
+```
