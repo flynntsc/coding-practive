@@ -485,3 +485,15 @@ cycle([1,2,3,4]) // []
 "Indivisibilities" -> 2 # 'i' and 's'
 "aa11" -> 2 # 'a' and '1'
 ```
+
+>[Which are in?](https://www.codewars.com/kata/which-are-in/javascript) 数组2中字符串是否包含数组1中的字符串（Hint:Array、filter、some）- Clever
+
+```
+a1 = ["arp", "live", "strong"]
+a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
+returns ["arp", "live", "strong"]
+
+a1 = ["tarp", "mice", "bull"]
+a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
+returns []
+```
