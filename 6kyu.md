@@ -497,3 +497,13 @@ a1 = ["tarp", "mice", "bull"]
 a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
 returns []
 ```
+
+>[Simple Encryption #1 - Alternating Split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/javascript) 简单的加密与解密-交叉分离组合（Hint:Regexp、replace）- Clever
+
+```
+"This is a test!", 1 -> "hsi  etTi sats!"
+"This is a test!", 2 -> "hsi  etTi sats!" -> "s eT ashi tist!"
+
+function encrypt(text, n)
+function decrypt(encryptedText, n)
+```
