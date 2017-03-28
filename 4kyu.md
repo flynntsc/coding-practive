@@ -42,3 +42,13 @@ nextBigger(12)==21
 nextBigger(513)==531
 nextBigger(2017)==2071
 ```
+
+>[Remove Zeros](https://www.codewars.com/kata/remove-zeros/train/javascript) 不借助数组或对象方法将零排最后（Hint:for）- Good
+
+```
+[7, 2, 3, 0, 4, 6, 0, 0, 13, 0, 78, 0, 0, 19, 14]
+
+is transformed into
+
+[7, 2, 3, 4, 6, 13, 78, 19, 14, 0, 0, 0, 0, 0, 0]
+```
