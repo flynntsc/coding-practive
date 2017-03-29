@@ -37,3 +37,10 @@ If the number has an integer square root, take this, otherwise square the number
 
 [4,3,9,7,2,1] -> [2,9,3,49,4,1]
 ```
+>[Rock Paper Scissors!](https://www.codewars.com/kata/rock-paper-scissors/train/javascript) 算出石头剪刀布结果（Hint:Regexp、Object）- Clever
+
+```
+rps('scissors','paper') // Player 1 won!
+rps('scissors','rock') // Player 2 won!
+rps('paper','paper') // Draw!
+```
