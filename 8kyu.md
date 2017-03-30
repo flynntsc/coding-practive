@@ -44,3 +44,9 @@ rps('scissors','paper') // Player 1 won!
 rps('scissors','rock') // Player 2 won!
 rps('paper','paper') // Draw!
 ```
+>[Number of People in the Bus](https://www.codewars.com/kata/number-of-people-in-the-bus/javascript) 公交站数之和（Hint:reduce、参数写法）- Clever
+
+```
+number([[10,0],[3,5],[5,8]]) // 5
+number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]) //17
+```
