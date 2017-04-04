@@ -127,3 +127,10 @@ code(t) -> "c.nhsoI\nltiahi.\noentinw\ncng.nga\nk..mg.s\n\voao.f.\n\v'trtig"
 
 decode(code(t)) == "I.was.going.fishing.that.morning.at.ten.o'clock"
 ```
+
+>[Maximum subarray sum](https://www.codewars.com/kata/maximum-subarray-sum/javascript) 求子数组的最大之和（Hint: Math.max、.min）- Clever
+
+```
+maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+// should be 6: [4, -1, 2, 1]
+```
