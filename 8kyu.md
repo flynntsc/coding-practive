@@ -50,3 +50,16 @@ rps('paper','paper') // Draw!
 number([[10,0],[3,5],[5,8]]) // 5
 number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]) //17
 ```
+
+>[Grasshopper - Summation](https://www.codewars.com/kata/grasshopper-summation/javascript) 简单的求和（Hint:数学定律）- Clever
+
+```
+summation(2) -> 3
+1 + 2
+
+summation(8) -> 36
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+
+eg:
+1 + 2 + 3 + 4 + ... + n-3 + n-2 + n-1 + n
+```
