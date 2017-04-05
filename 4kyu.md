@@ -43,7 +43,7 @@ nextBigger(513)==531
 nextBigger(2017)==2071
 ```
 
->[Remove Zeros](https://www.codewars.com/kata/remove-zeros/train/javascript) 不借助数组或对象方法将零排最后（Hint:for）- Good
+>[Remove Zeros](https://www.codewars.com/kata/remove-zeros/train/javascript) 不借助数组或对象方法将零排最后（Hint:for、i < l的情况i++，l++总次数不变）- Good
 
 ```
 [7, 2, 3, 0, 4, 6, 0, 0, 13, 0, 78, 0, 0, 19, 14]
@@ -51,4 +51,21 @@ nextBigger(2017)==2071
 is transformed into
 
 [7, 2, 3, 4, 6, 13, 78, 19, 14, 0, 0, 0, 0, 0, 0]
+```
+
+>[Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of、所有数组中均在第一个必然是单词第一个，以此递归）- Clever
+
+```
+const secret1 = 'whatisup'
+const triplets1 = [
+  ['t', 'u', 'p'],
+  ['w', 'h', 'i'],
+  ['t', 's', 'u'],
+  ['a', 't', 's'],
+  ['h', 'a', 'p'],
+  ['t', 'i', 's'],
+  ['w', 'h', 's']
+]
+
+recoverSecret(triplets1) // 结果 secret1
 ```
