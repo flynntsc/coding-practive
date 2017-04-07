@@ -507,3 +507,17 @@ returns []
 function encrypt(text, n)
 function decrypt(encryptedText, n)
 ```
+
+>[Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/5626b561280a42ecc50000d1/) 计算数字各位上累计求幂之和等于本身的数（Hint:while更简单、Math.pow的简写x**y、知道结果结合的情况下，可直接写出集合再直接判断即可，最省时省力）- Clever
+
+```
+In effect: 89 = 8^1 + 9^2
+The next number in having this property is 135.
+See this property again: 135 = 1^1 + 3^2 + 5^3
+
+sumDigPow(1, 10) == [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+sumDigPow(1, 100) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 89]
+
+sumDigPow(90, 100) == []
+```
