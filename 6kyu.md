@@ -521,3 +521,24 @@ sumDigPow(1, 100) == [1, 2, 3, 4, 5, 6, 7, 8, 9, 89]
 
 sumDigPow(90, 100) == []
 ```
+
+>[Build Tower](https://www.codewars.com/kata/build-tower) 用数组表示一个金字塔（Hint:Array、Array.from、[...arr]、repeat）- Clever
+
+```
+// 3 floors
+[
+  '  *  ', 
+  ' *** ', 
+  '*****'
+]
+
+6 floors
+[
+  '     *     ', 
+  '    ***    ', 
+  '   *****   ', 
+  '  *******  ', 
+  ' ********* ', 
+  '***********'
+]
+```
