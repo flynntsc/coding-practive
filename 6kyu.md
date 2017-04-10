@@ -542,3 +542,12 @@ sumDigPow(90, 100) == []
   '***********'
 ]
 ```
+
+>[Is a number prime?](https://www.codewars.com/kata/is-a-number-prime/javascript) 判断数值是否为素数（Hint:for、6n+-1、i * i <= num）- Clever
+
+```
+isPrime(-2) === true
+isPrime(0) === false
+isPrime(1) === false
+isPrime(2) === true
+```
