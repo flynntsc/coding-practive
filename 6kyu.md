@@ -543,11 +543,26 @@ sumDigPow(90, 100) == []
 ]
 ```
 
->[Is a number prime?](https://www.codewars.com/kata/is-a-number-prime/javascript) 判断数值是否为素数（Hint:for、6n+-1、i * i <= num）- Clever
+>[Is a number prime?](https://www.codewars.com/kata/is-a-number-prime/javascript) 判断数值是否为素数（Hint:for、6n+-1、i * i <= num）代码最少方法、计算最少方法 - Clever
 
 ```
 isPrime(-2) === true
 isPrime(0) === false
 isPrime(1) === false
 isPrime(2) === true
+```
+>[The Supermarket Queue](https://www.codewars.com/kata/the-supermarket-queue) 超市结账队列与窗口数的消耗时间计算（Hint: for、Math）以窗口为对象，计算各窗口消耗的时间，再求出最大值 - Clever
+
+```
+queueTime([5,3,4], 1)
+// should return 12
+// because when n=1, the total time is just the sum of the times
+
+queueTime([10,2,3,3], 2)
+// should return 10
+// because here n=2 and the 2nd, 3rd, and 4th people in the 
+// queue finish before the 1st person has finished.
+
+queueTime([2,3,10], 2)
+// should return 12
 ```
