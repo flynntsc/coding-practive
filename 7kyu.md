@@ -539,3 +539,16 @@ For arr=[6, 5, 4, 100, 6, 5, 4, 100, 6, 5, 4, 200], the result should be 4000000
 
 200 x 200 x 100 = 4000000
 ```
+
+>[Ones and Zeros](https://www.codewars.com/kata/ones-and-zeros/javascript) 只含01的数组转化为二进制之和（Hint:reduce、join、parseInt）- Clever
+
+```
+Testing: [0, 0, 0, 1] ==> 1
+Testing: [0, 0, 1, 0] ==> 2
+Testing: [0, 1, 0, 1] ==> 5
+Testing: [1, 0, 0, 1] ==> 9
+Testing: [0, 0, 1, 0] ==> 2
+Testing: [0, 1, 1, 0] ==> 6
+Testing: [1, 1, 1, 1] ==> 15
+Testing: [1, 0, 1, 1] ==> 11
+```
