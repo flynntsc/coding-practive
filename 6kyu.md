@@ -228,10 +228,16 @@ persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one
 
 ```
 
-> [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：) - Clever
+> [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：for、repeat、while) 从1个到n个\*来看、从n个到两边的1个\*来看- Clever
 
 ```
-
+diamond(5) // '  *\n ***\n*****\n ***\n  *\n'
+// 效果如下
+  *
+ ***
+*****
+ ***
+  *
 ```
 
 > [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times) 过滤超过指定个数的数组（Hint:Object、filter）- Clever
