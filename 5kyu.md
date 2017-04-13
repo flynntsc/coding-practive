@@ -145,3 +145,13 @@ zeros(30) // 7
 zeros(100) // 24
 zeros(100000) // 24999
 ```
+
+>[Is my friend cheating?](https://www.codewars.com/kata/is-my-friend-cheating/javascript) 有无满足a*b = sum(n)-a-b的两个数（Hint:for）- Clever
+
+```
+removNb(26) should return [(15, 21), (21, 15)]
+
+// sum(n) = 1 + 2 + 3 + ... + n-2 + n-1 + n
+// a <= n && b <= n
+// a * b = sum(n) - a - b
+```
