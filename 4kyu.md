@@ -1,7 +1,7 @@
 ## 4 kyu
 
 
-- [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）- Hard
+> [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）- Hard
 
 ```
 function undoRedo(object) {
@@ -14,7 +14,7 @@ function undoRedo(object) {
 	};
 }
 ```
-- [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）- Hard
+> [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）- Hard
 
 ```
 function add(a,b) { return a+b;};
@@ -33,9 +33,9 @@ add_(10); // returns NaN
 add_(10,10); // returns 20
 ```
 
-- [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）- Hard
+> [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）- Hard
 
-- [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) 下一个更大数值大小的队列（Hint:for、split、+1）- Clever
+> [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) 下一个更大数值大小的队列（Hint:for、split、+1）- Clever
 
 ```
 nextBigger(12)==21
@@ -53,7 +53,9 @@ is transformed into
 [7, 2, 3, 4, 6, 13, 78, 19, 14, 0, 0, 0, 0, 0, 0]
 ```
 
->[Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of、所有数组中均在第一个必然是单词第一个，以此递归）- Clever
+>[Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of）- Clever
+
+所有数组中均在第一个必然是单词第一个，以此递归
 
 ```
 const secret1 = 'whatisup'
@@ -69,3 +71,20 @@ const triplets1 = [
 
 recoverSecret(triplets1) // 结果 secret1
 ```
+>[Snail](https://www.codewars.com/kata/snail/javascript) 按不同的顺序拆解二维数组（Hint: for、Array、.pop、.shift、push、reverse）- Clever
+
+```
+array = [[1,2,3],
+         [4,5,6],
+         [7,8,9]]
+snail(array) #=> [1,2,3,6,9,8,7,4,5]
+
+array = [[1,2,3],
+         [8,9,4],
+         [7,6,5]]
+snail(array) #=> [1,2,3,4,5,6,7,8,9]
+```
+
+![Snail图片事例](http://www.haan.lu/files/2513/8347/2456/snail.png)
+
+
