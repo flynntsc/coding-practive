@@ -100,7 +100,7 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
 
 ```
 
->[Merged String Checker](https://www.codewars.com/kata/merged-string-checker/javascript) 判读str是否由str1和str2组合（Hint：recursion）- Clever
+>[Merged String Checker](https://www.codewars.com/kata/merged-string-checker/javascript) 判读str是否由str1和str2组合（Hint：Recursion）- Clever
 
 ```
 'codewars' is a merge from 'cdw' and 'oears':
@@ -133,4 +133,15 @@ decode(code(t)) == "I.was.going.fishing.that.morning.at.ten.o'clock"
 ```
 maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 // should be 6: [4, -1, 2, 1]
+```
+
+>[Number of trailing zeros of N!](https://www.codewars.com/kata/number-of-trailing-zeros-of-n/javascript) 数据递增相乘结果有几个零结尾（Hint:for、Recursion）末尾零均来源于2*5再来计算 - Clever
+
+```
+zeros(12) = 2 # 1 * 2 * 3 .. 12 = 479001600 
+that has 2 trailing zeros 4790016(00)
+
+zeros(30) // 7
+zeros(100) // 24
+zeros(100000) // 24999
 ```
