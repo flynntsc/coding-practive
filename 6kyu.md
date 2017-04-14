@@ -580,3 +580,8 @@ queueTime([10,2,3,3], 2)
 queueTime([2,3,10], 2)
 // should return 12
 ```
+
+>[Take a Ten Minute Walk](https://www.codewars.com/kata/take-a-ten-minute-walk) 东南西北走十步是否能回到原地（Hint:Object、Array、switch）- Clever
+
+```
+```
