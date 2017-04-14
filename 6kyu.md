@@ -504,7 +504,9 @@ a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
 returns []
 ```
 
->[Simple Encryption #1 - Alternating Split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/javascript) 简单的加密与解密-交叉分离组合（Hint:Regexp、replace）- get=>除了遍历index判断，还可直接正则过滤 - Clever
+>[Simple Encryption #1 - Alternating Split](https://www.codewars.com/kata/simple-encryption-number-1-alternating-split/javascript) 简单的加密与解密-交叉分离组合（Hint:Regexp、replace）- Clever
+
+`除了遍历index判断，还可直接正则过滤`
 
 ```
 "This is a test!", 1 -> "hsi  etTi sats!"
@@ -514,7 +516,9 @@ function encrypt(text, n)
 function decrypt(encryptedText, n)
 ```
 
->[Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/5626b561280a42ecc50000d1/) 计算数字各位上累计求幂之和等于本身的数（Hint:while更简单、Math.pow的简写x**y、知道结果结合的情况下，可直接写出集合再直接判断即可，最省时省力）- Clever
+>[Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!](https://www.codewars.com/kata/5626b561280a42ecc50000d1/) 计算数字各位上累计求幂之和等于本身的数（Hint:while更简单、Math.pow的简写x**y）- Clever
+
+`知道结果结合的情况下，可直接写出集合再直接判断即可，最省时省力`
 
 ```
 In effect: 89 = 8^1 + 9^2
@@ -549,7 +553,9 @@ sumDigPow(90, 100) == []
 ]
 ```
 
->[Is a number prime?](https://www.codewars.com/kata/is-a-number-prime/javascript) 判断数值是否为素数（Hint:for、6n+-1、i * i <= num）代码最少方法、计算最少方法 - Clever
+>[Is a number prime?](https://www.codewars.com/kata/is-a-number-prime/javascript) 判断数值是否为素数（Hint:for、6n+-1、i * i <= num） - Clever
+
+`代码最少方法、计算最少方法`
 
 ```
 isPrime(-2) === true
@@ -557,7 +563,9 @@ isPrime(0) === false
 isPrime(1) === false
 isPrime(2) === true
 ```
->[The Supermarket Queue](https://www.codewars.com/kata/the-supermarket-queue) 超市结账队列与窗口数的消耗时间计算（Hint: for、Math）以窗口为对象，计算各窗口消耗的时间，再求出最大值 - Clever
+>[The Supermarket Queue](https://www.codewars.com/kata/the-supermarket-queue) 超市结账队列与窗口数的消耗时间计算（Hint: for、Math） - Clever
+
+`以窗口为对象，计算各窗口消耗的时间，再求出最大值`
 
 ```
 queueTime([5,3,4], 1)

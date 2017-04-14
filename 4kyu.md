@@ -55,7 +55,7 @@ is transformed into
 
 >[Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of）- Clever
 
-所有数组中均在第一个必然是单词第一个，以此递归
+`所有数组中均在第一个必然是单词第一个，以此递归`
 
 ```
 const secret1 = 'whatisup'
@@ -73,6 +73,8 @@ recoverSecret(triplets1) // 结果 secret1
 ```
 >[Snail](https://www.codewars.com/kata/snail/javascript) 按不同的顺序拆解二维数组（Hint: for、Array、.pop、.shift、push、reverse）- Clever
 
+`4个方向依次操作一遍作为循环`
+
 ```
 array = [[1,2,3],
          [4,5,6],
@@ -88,3 +90,11 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 ![Snail图片事例](http://www.haan.lu/files/2513/8347/2456/snail.png)
 
 
+>[Valid Braces](https://www.codewars.com/kata/valid-braces) 验证左右括号完全对应（Hint:Regular、while、replace）- Clever
+
+```
+validBraces( "(){}[]" ) => returns true 
+validBraces( "(}" ) => returns false 
+validBraces( "[(])" ) => returns false 
+validBraces( "([{}])" ) => returns true
+```
