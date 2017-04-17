@@ -98,3 +98,22 @@ validBraces( "(}" ) => returns false
 validBraces( "[(])" ) => returns false 
 validBraces( "([{}])" ) => returns true
 ```
+
+>[Roman Numerals Encoder](https://www.codewars.com/kata/roman-numerals-encoder) 罗马数字编译器（Hint:Array、Object、for、while）- Good
+
+```
+Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000
+
+solution(1) // 'I'
+solution(4) // 'IV'
+solution(1000) // 'M'
+solution(1990) // 'MCMXC'
+solution(2007) // 'MMVII'
+```
