@@ -117,3 +117,10 @@ solution(1000) // 'M'
 solution(1990) // 'MCMXC'
 solution(2007) // 'MMVII'
 ```
+
+>[Reverse polish notation calculator](https://www.codewars.com/kata/reverse-polish-notation-calculator) 逆波兰表示法编译器（Hint:Array、Regexp、switch）- Clever
+
+```
+// 操作符前两数字优先计算
+5 1 2 + 4 * + 3 - 等同于 5 + ((1 + 2) * 4) - 3
+```
