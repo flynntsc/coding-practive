@@ -155,3 +155,11 @@ removNb(26) should return [(15, 21), (21, 15)]
 // a <= n && b <= n
 // a * b = sum(n) - a - b
 ```
+
+>[Did I Finish my Sudoku?](https://www.codewars.com/kata/did-i-finish-my-sudoku) 判断是否已完成九宫格（Hint:Array、双for）- Clever
+
+![九宫格](http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/364px-Sudoku-by-L2G-20050714_solution.svg.png)
+
+```
+
+```
