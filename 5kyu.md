@@ -135,7 +135,9 @@ maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 // should be 6: [4, -1, 2, 1]
 ```
 
->[Number of trailing zeros of N!](https://www.codewars.com/kata/number-of-trailing-zeros-of-n/javascript) 数据递增相乘结果有几个零结尾（Hint:for、Recursion）末尾零均来源于2*5再来计算 - Clever
+>[Number of trailing zeros of N!](https://www.codewars.com/kata/number-of-trailing-zeros-of-n/javascript) 数据递增相乘结果有几个零结尾（Hint:for、Recursion） - Clever
+
+`末尾零均来源于2*5再来计算`
 
 ```
 zeros(12) = 2 # 1 * 2 * 3 .. 12 = 479001600 
@@ -162,4 +164,16 @@ removNb(26) should return [(15, 21), (21, 15)]
 
 ```
 
+```
+
+>[Gap in Primes](https://www.codewars.com/kata/gap-in-primes/) 求素数区间内相邻的数（Hint:for）- Good
+
+`有时间复杂度要求，除素数判断外，尽可能一个循环计算`
+
+```
+gap(2, 100, 110) // [101, 103]
+gap(4, 100, 110) // [103, 107]
+gap(6, 100, 110) // null
+gap(8, 300, 400) // [359, 367]
+gap(10, 300, 400) // [337, 347]
 ```
