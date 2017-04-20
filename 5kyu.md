@@ -177,3 +177,15 @@ gap(6, 100, 110) // null
 gap(8, 300, 400) // [359, 367]
 gap(10, 300, 400) // [337, 347]
 ```
+
+>[Product of consecutive Fib numbers](https://www.codewars.com/kata/product-of-consecutive-fib-numbers) 求一个数值是否为斐波那契数列相邻两个数之积（Hint: while）- Good
+
+`简单的循环即可，而无需依靠数组`
+
+```
+productFib(714) # should return [21, 34, true], 
+                # since F(8) = 21, F(9) = 34 and 714 = 21 * 34
+
+productFib(800) # should return [34, 55, false], 
+                # since F(8) = 21, F(9) = 34, F(10) = 55 and 21 * 34 < 800 < 34 * 55
+```
