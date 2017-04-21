@@ -189,3 +189,12 @@ productFib(714) # should return [21, 34, true],
 productFib(800) # should return [34, 55, false], 
                 # since F(8) = 21, F(9) = 34, F(10) = 55 and 21 * 34 < 800 < 34 * 55
 ```
+
+>[Simple Pig Latin](https://www.codewars.com/kata/simple-pig-latin/) 替换字符串每个单词首字母移末尾（Hint:Array、map、reduce、Regexp）- Clever
+
+`很简单但利用正则相当clever`
+
+```
+// Pig = ig + P + ay
+pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
+```
