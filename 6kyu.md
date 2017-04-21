@@ -585,3 +585,10 @@ queueTime([2,3,10], 2)
 
 ```
 ```
+
+>[Find the missing letter](https://www.codewars.com/kata/find-the-missing-letter) 找出中间缺失的字母（Hint:charCodeAt、fromCharCode VS codePointAt、fromCodePoint = 后者ES6更完善）- Good
+
+```
+['a','b','c','d','f'] -> 'e'
+['O','Q','R','S'] -> 'P'
+```
