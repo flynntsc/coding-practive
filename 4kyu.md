@@ -124,3 +124,13 @@ solution(2007) // 'MMVII'
 // 操作符前两数字优先计算
 5 1 2 + 4 * + 3 - 等同于 5 + ((1 + 2) * 4) - 3
 ```
+
+>[Human readable duration format](https://www.codewars.com/kata/human-readable-duration-format/) 将秒数格式化为人类易读模式（Hint: object、for...in、array、replace）- Clever
+
+`直接计算也可，只是有更clever的方法`
+
+```
+  formatDuration(0)     //  return "now"   
+  formatDuration(62)    // returns "1 minute and 2 seconds"
+  formatDuration(3662)  // returns "1 hour, 1 minute and 2 seconds"
+```
