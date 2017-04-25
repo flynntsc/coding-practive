@@ -198,3 +198,13 @@ productFib(800) # should return [34, 55, false],
 // Pig = ig + P + ay
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 ```
+
+>[Human Readable Time](https://www.codewars.com/kata/human-readable-time) 格式化秒数为时分秒（Hint:/、%、slice）- Good
+
+`秒分直接计算可得，无需再相减`
+
+```
+HH = hours, padded to 2 digits, range: 00 - 99
+MM = minutes, padded to 2 digits, range: 00 - 59
+SS = seconds, padded to 2 digits, range: 00 - 59
+```
