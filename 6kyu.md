@@ -592,3 +592,15 @@ queueTime([2,3,10], 2)
 ['a','b','c','d','f'] -> 'e'
 ['O','Q','R','S'] -> 'P'
 ```
+>[Triple trouble](https://www.codewars.com/kata/triple-trouble-1/) 连续数字是否再次出现（Hint:Regexp、for）- Clever
+
+```
+tripledouble(451999277, 41177722899) == 1 // num1 has straight triple 999s and 
+                                          // num2 has straight double 99s
+
+tripledouble(1222345, 12345) == 0 // num1 has straight triple 2s but num2 has only a single 2
+
+tripledouble(12345, 12345) == 0
+
+tripledouble(666789, 12345667) == 1
+```
