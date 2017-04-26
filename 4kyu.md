@@ -134,3 +134,15 @@ solution(2007) // 'MMVII'
   formatDuration(62)    // returns "1 minute and 2 seconds"
   formatDuration(3662)  // returns "1 hour, 1 minute and 2 seconds"
 ```
+
+[Square into Squares. Protect trees!](https://www.codewars.com/kata/square-into-squares-protect-trees) 一个数平方是否等于其他不重复的数平方之和（Hint: Recursion）- Clever
+
+`结果[x1 ... xk]，基本上xk都将是n-1`
+
+```
+// 11² = 121 = 1 + 4 + 16 + 100 = 1² + 2² + 4² + 10²
+// [2,6,9]虽也符合条件，但9<10，所以取较大值
+decompose(11) // [1,2,4,10]
+
+
+```
