@@ -139,10 +139,17 @@ solution(2007) // 'MMVII'
 
 `结果[x1 ... xk]，基本上xk都将是n-1`
 
+`Skill Skill Skill: 将运算直接放在函数参数中；return fn(a1) || fn(a2)深度递归`
+
 ```
 // 11² = 121 = 1 + 4 + 16 + 100 = 1² + 2² + 4² + 10²
 // [2,6,9]虽也符合条件，但9<10，所以取较大值
 decompose(11) // [1,2,4,10]
+```
 
+>[Sum Strings as Numbers](https://www.codewars.com/kata/sum-strings-as-numbers) 计算两个字符串的数值之和（Hint:for、Array、reverse）- Good
 
+```
+sumStrings('1','2') // => '3'
+sumStrings('712569312664357328695151392','8100824045303269669937') // => '712577413488402631964821329'
 ```
