@@ -153,3 +153,36 @@ decompose(11) // [1,2,4,10]
 sumStrings('1','2') // => '3'
 sumStrings('712569312664357328695151392','8100824045303269669937') // => '712577413488402631964821329'
 ```
+
+> [Text align justify](https://www.codewars.com/kata/text-align-justify) 格式化文本为两边对齐（Hint:for、array、reduce、map）- Good
+
+```
+Lorem  ipsum  dolor  sit amet,
+consectetur  adipiscing  elit.
+Vestibulum    sagittis   dolor
+mauris,  at  elementum  ligula
+tempor  eget.  In quis rhoncus
+nunc,  at  aliquet orci. Fusce
+at   dolor   sit   amet  felis
+suscipit   tristique.   Nam  a
+imperdiet   tellus.  Nulla  eu
+vestibulum    urna.    Vivamus
+tincidunt  suscipit  enim, nec
+ultrices   nisi  volutpat  ac.
+Maecenas   sit   amet  lacinia
+arcu,  non dictum justo. Donec
+sed  quam  vel  risus faucibus
+euismod.  Suspendisse  rhoncus
+rhoncus  felis  at  fermentum.
+Donec lorem magna, ultricies a
+nunc    sit    amet,   blandit
+fringilla  nunc. In vestibulum
+velit    ac    felis   rhoncus
+pellentesque. Mauris at tellus
+enim.  Aliquam eleifend tempus
+dapibus. Pellentesque commodo,
+nisi    sit   amet   hendrerit
+fringilla,   ante  odio  porta
+lacus,   ut   elementum  justo
+nulla et dolor.
+```
