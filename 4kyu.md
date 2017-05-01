@@ -11,7 +11,7 @@ function undoRedo(object) {
 		del: function(key) {},
 		undo: function() {},
 		redo: function() {}
-	};
+	}
 }
 ```
 > [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）- Hard

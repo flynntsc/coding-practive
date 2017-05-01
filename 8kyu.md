@@ -63,3 +63,12 @@ summation(8) -> 36
 eg:
 1 + 2 + 3 + 4 + ... + n-3 + n-2 + n-1 + n
 ```
+
+>[Fake Binary](https://www.codewars.com/kata/fake-binary/javascript) 转为只有01的字符串（Hint:array、join）- Clever
+
+`x < 5 ? 0 : 1` VS `x / 5 | 0`
+
+```
+// 小于5 => 0, 不小于5 => 1
+fakeBin('45385593107843568') // '01011110001100111'
+```
