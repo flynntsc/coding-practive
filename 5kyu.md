@@ -208,3 +208,17 @@ HH = hours, padded to 2 digits, range: 00 - 99
 MM = minutes, padded to 2 digits, range: 00 - 59
 SS = seconds, padded to 2 digits, range: 00 - 59
 ```
+
+>[What's a Perfect Power anyway?](https://www.codewars.com/kata/whats-a-perfect-power-anyway/javascript) 判断数值是否能被整数求根（Hint:for、Math）- Clever
+
+`Math.pow(5,3) === 125`
+
+but(216,343...)
+
+`Math.pow(125,1/3) !== 5 === 4.999999999999999`
+
+```
+isPP(4) // [2,2]
+isPP(9) // [3,2]
+isPP(5) // null
+```
