@@ -222,3 +222,9 @@ isPP(4) // [2,2]
 isPP(9) // [3,2]
 isPP(5) // null
 ```
+
+>[Primes in numbers](https://www.codewars.com/kata/primes-in-numbers/javascript) 求数值的积数（Hint:for、while）- Good
+
+```
+Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
+```
