@@ -604,3 +604,9 @@ tripledouble(12345, 12345) == 0
 
 tripledouble(666789, 12345667) == 1
 ```
+
+>[Sort the odd](https://www.codewars.com/kata/sort-the-odd/javascript) 对数组中的奇数进行排序（Hint:filter、sort、map）- Clever
+
+```
+sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
+```
