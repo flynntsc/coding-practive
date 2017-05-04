@@ -228,3 +228,12 @@ isPP(5) // null
 ```
 Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
 ```
+
+>[Best travel](https://www.codewars.com/kata/best-travel/javascript) n个数值中挑出其中m个之和最合适值（Hint: Recursion、for）- Clever
+
+```
+ls = [50, 55, 57, 58, 60] // 5选3排列
+all = [50,55,57],[50,55,58],[50,55,60],[50,57,58],[50,57,60],[50,58,60],[55,57,58],[55,57,60],[55,58,60],[57,58,60]
+all-sum = [162, 163, 165, 165, 167, 168, 170, 172, 173, 175]
+choose_best_sum(163, 3, ts) -> 163
+```
