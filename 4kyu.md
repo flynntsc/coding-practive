@@ -14,7 +14,7 @@ function undoRedo(object) {
 	}
 }
 ```
-> [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、reg、match）- Hard
+> [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、RegExp、match）- Hard
 
 ```
 function add(a,b) { return a+b;};
@@ -33,7 +33,7 @@ add_(10); // returns NaN
 add_(10,10); // returns 20
 ```
 
-> [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: reg、toString、apply、bind）- Hard
+> [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: RegExp、toString、apply、bind）- Hard
 
 > [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) 下一个更大数值大小的队列（Hint:for、split、+1）- Clever
 
@@ -90,7 +90,7 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 ![Snail图片事例](http://www.haan.lu/files/2513/8347/2456/snail.png)
 
 
->[Valid Braces](https://www.codewars.com/kata/valid-braces) 验证左右括号完全对应（Hint:Regular、while、replace）- Clever
+>[Valid Braces](https://www.codewars.com/kata/valid-braces) 验证左右括号完全对应（Hint:RegExp、while、replace）- Clever
 
 ```
 validBraces( "(){}[]" ) => returns true 
@@ -185,4 +185,26 @@ nisi    sit   amet   hendrerit
 fringilla,   ante  odio  porta
 lacus,   ut   elementum  justo
 nulla et dolor.
+```
+
+>[Strings Mix](https://www.codewars.com/kata/strings-mix/javascript) 混合小写字母大于1的字符串（Hint: RegExp、reduce、for、sort）- Clever
+
+`arr.reduce((x, y) => (x[y] = 1 + (x[y] || 0), x), {})`
+
+`arr.sort((x, y) => y.length - x.length || (x < y ? -1 : 1))`
+
+`'a' < 'z' => true`
+
+```
+s1 = "my&friend&Paul has heavy hats! &"
+s2 = "my friend John has many many friends &"
+mix(s1, s2) --> "2:nnnnn/1:aaaa/1:hhh/2:mmm/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
+
+s1 = "mmmmm m nnnnn y&friend&Paul has heavy hats! &"
+s2 = "my frie n d Joh n has ma n y ma n y frie n ds n&"
+mix(s1, s2) --> "1:mmmmmm/=:nnnnnn/1:aaaa/1:hhh/2:yyy/2:dd/2:ff/2:ii/2:rr/=:ee/=:ss"
+
+s1="Are the kids at home? aaaaa fffff"
+s2="Yes they are here! aaaaa fffff"
+mix(s1, s2) --> "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
 ```
