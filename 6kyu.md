@@ -610,3 +610,15 @@ tripledouble(666789, 12345667) == 1
 ```
 sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
 ```
+
+>[Playing with passphrases](https://www.codewars.com/kata/playing-with-passphrases/javascript) 简单的密码加密（Hint:replace、Regexp）- Clever
+
+```
+your text: "BORN IN 2015!", shift 1
+
+1 + 2 + 3 -> "CPSO JO 7984!"
+
+4 "CpSo jO 7984!"
+
+5 "!4897 Oj oSpC"
+```
