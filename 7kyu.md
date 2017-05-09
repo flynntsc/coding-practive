@@ -552,3 +552,15 @@ Testing: [0, 1, 1, 0] ==> 6
 Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 ```
+
+>[Simple Fun #253: Cool String](https://www.codewars.com/kata/simple-fun-number-253-cool-string/javascript) 判断是否为大小写更替的字符串（Hint:Regexp）- Good
+
+```
+For s = "aQwFdA", the output should be true
+
+For s = "aBC", the output should be false;
+
+For s = "AaA", the output should be true;
+
+For s = "q q", the output should be false.
+```
