@@ -208,3 +208,17 @@ s1="Are the kids at home? aaaaa fffff"
 s2="Yes they are here! aaaaa fffff"
 mix(s1, s2) --> "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
 ```
+
+>[Pyramid Slide Down](https://www.codewars.com/kata/pyramid-slide-down/javascript) 金字塔数组上下临近数字相加最大值（Hint:while、map、reduceRight）- Clever
+
+`从下而上遍历计算比较才能齐全`
+
+```
+   /3/
+  \7\ 4 
+ 2 \4\ 6 
+8 5 \9\ 3
+
+longestSlideDown [[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]] 
+-- => 23
+```
