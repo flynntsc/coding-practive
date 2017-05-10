@@ -622,3 +622,11 @@ your text: "BORN IN 2015!", shift 1
 
 5 "!4897 Oj oSpC"
 ```
+
+> [Simple Fun #259: Different Digits Number Search](https://www.codewars.com/kata/59113da398dcd456270000a8) 找出没重复数值的数（Hint:find、Regexp）- Clever
+
+```
+For arr = [22, 111, 101, 124, 33, 30], the output should be 124
+
+For arr = [1111, 404], the output should be -1
+```
