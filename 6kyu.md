@@ -630,3 +630,13 @@ For arr = [22, 111, 101, 124, 33, 30], the output should be 124
 
 For arr = [1111, 404], the output should be -1
 ```
+
+>[Simple Fun #256: Two Arrays Nth Element](https://www.codewars.com/kata/simple-fun-number-256-two-arrays-nth-element) 计算两个有序数组最小的第n个值（Hint:while、Math、Infinity）- Clever
+
+`莫忘Infinity`
+
+```
+twoArraysNthElement([1, 3, 4],[2, 6, 8],5) // 8
+twoArraysNthElement([1, 3, 5],[2, 4],2) // 3
+twoArraysNthElement([6,19,21,30,34,35,44,48],[3,4,5,9,14,16,25,32,36,37,41,53],11) // 32
+```
