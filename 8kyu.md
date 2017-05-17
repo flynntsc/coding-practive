@@ -72,3 +72,12 @@ eg:
 // 小于5 => 0, 不小于5 => 1
 fakeBin('45385593107843568') // '01011110001100111'
 ```
+>[Find Multiples of a Number](https://www.codewars.com/kata/find-multiples-of-a-number) 找出递增到某个值的所有数值（Hint:Array.from()）- Clever
+
+```
+findMultiples(5, 25) // [5, 10, 15, 20, 25])
+findMultiples(1, 2) // [1, 2])
+findMultiples(5, 7) // [5])
+findMultiples(4, 27) // [4, 8, 12, 16, 20, 24])
+findMultiples(11, 54) // [11, 22, 33, 44])
+```
