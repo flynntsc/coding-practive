@@ -237,3 +237,11 @@ all = [50,55,57],[50,55,58],[50,55,60],[50,57,58],[50,57,60],[50,58,60],[55,57,5
 all-sum = [162, 163, 165, 165, 167, 168, 170, 172, 173, 175]
 choose_best_sum(163, 3, ts) -> 163
 ```
+
+>[Scramblies](https://www.codewars.com/kata/scramblies/javascript) 判断后一个字符串是否能被前一个完全排列起来（Hint:for、reduce、every）- Clever
+
+```js
+str1 is 'rkqodlw' and str2 is 'world' the output should return true.
+str1 is 'cedewaraaossoqqyt' and str2 is 'codewars' should return true.
+str1 is 'katas' and str2 is 'steak' should return false.
+```
