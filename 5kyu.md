@@ -240,8 +240,17 @@ choose_best_sum(163, 3, ts) -> 163
 
 >[Scramblies](https://www.codewars.com/kata/scramblies/javascript) 判断后一个字符串是否能被前一个完全排列起来（Hint:for、reduce、every）- Clever
 
+`n && -n` VS `n ? -n : n`
+
 ```js
 str1 is 'rkqodlw' and str2 is 'world' the output should return true.
 str1 is 'cedewaraaossoqqyt' and str2 is 'codewars' should return true.
 str1 is 'katas' and str2 is 'steak' should return false.
+```
+
+>[Common Denominators](https://www.codewars.com/kata/common-denominators) 共同的分母（Hint: Recursion）- Clever
+
+```
+var lst = [ [1, 2], [1, 3], [1, 4] ]
+Test.assertEquals(convertFrac(lst), "(6,12)(4,12)(3,12)")
 ```
