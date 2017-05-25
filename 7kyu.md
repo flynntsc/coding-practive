@@ -2,14 +2,14 @@
 
 > [Test Your Knowledge Of Function Scope](https://www.codewars.com/kata/test-your-knowledge-of-function-scope/javascript) 函数范围（Hint: function、return）- Good
 
-```
+```js
 add(3)(4)  // 7
 add(12)(20) // 32
 ```
 
 > [The Span Function](https://www.codewars.com/kata/the-span-function/solutions) 跨度函数（Hint: for） - Good
 
-```
+```js
 function isEven (x) {
   return Math.abs(x) % 2 === 0;
 }
@@ -22,7 +22,7 @@ span(arr, isEven) === [[2,4,6],[1,8,10]]
 
 > [Pair Zeros](https://www.codewars.com/kata/pair-zeros/solutions) 过滤数字0（Hint: filter）- Clever
 
-```
+```js
 pairZeros([0,0]) // [0]
 pairZeros([0,0,0]) // [0,0]
 pairZeros([1,0,1,0,2,0,0,3,0]) // [1,0,1,2,0,3,0]
@@ -30,7 +30,7 @@ pairZeros([1,0,1,0,2,0,0,3,0]) // [1,0,1,2,0,3,0]
 
 > [Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053) 数值区间求和（Hint: Math、/2）- Clever
 
-```
+```js
 Example: 
 GetSum(1, 0) == 1   // 1 + 0 = 1
 GetSum(1, 2) == 3   // 1 + 2 = 3
@@ -42,7 +42,7 @@ GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 
 > [All, None & Any](https://www.codewars.com/kata/54589f3b52756d34d6000158) 数组扩展方法（Hint: Array、filter）- Clever
 
-```
+```js
 [1, 2, 3].all(isGreaterThanZero) => true
 [-1, 0, 2].all(isGreaterThanZero) => false
 [-1, 2, 3].none(isLessThanZero) => false
@@ -59,7 +59,7 @@ function isLessThanZero (num) {
 ```
 > [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1) 判断是否有重复字符（Hint: regex）- Clever
 
-```
+```js
 isIsogram( "Dermatoglyphics" ) == true
 isIsogram( "aba" ) == false
 isIsogram( "moOse" ) == false // -- ignore letter case
@@ -67,7 +67,7 @@ isIsogram( "moOse" ) == false // -- ignore letter case
 
 > [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc) 信用卡格式（Hint: regex、replace）- Clever
 
-```
+```js
 maskify("4556364607935616") == "############5616"
 maskify(     "64607935616") ==      "#######5616"
 maskify(               "1") ==                "1"
@@ -82,13 +82,13 @@ maskify("Nananananananananananananananana Batman!") == "########################
 
 > [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6) 格式化文字大小写（Hint: string、charAt、slice）- Good
 
-```
+```js
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 ```
 > [Complementary DNA](https://www.codewars.com/kata/complementary-dna) 对应DNA串-字符串字母替换（Hint: object、replace）- Clever
 
-```
+```js
 DNAStrand ("ATTGC") # return "TAACG"
 
 DNAStrand ("GTAT") # return "CATA"
@@ -96,7 +96,7 @@ DNAStrand ("GTAT") # return "CATA"
 
 > [Descending Order](http://www.codewars.com/kata/descending-order/javascript) 递减顺序(Hint: sort、reverse) - Good
 
-```
+```js
 // reverse is better than sort((x,y)=>y-x)
 Input: 145263 Output: 654321
 
@@ -107,7 +107,7 @@ Input: 1254859723 Output: 9875543221
 
 > [Highest and Lowest](http://www.codewars.com/kata/highest-and-lowest/javascript) 取最大值与最小值(Hint: Math、...) - Good
 
-```
+```js
 highAndLow("1 2 3 4 5"); // return "5 1"
 highAndLow("1 2 -3 4 5"); // return "5 -3"
 highAndLow("1 9 3 4 -5"); // return "9 -5"
@@ -115,7 +115,7 @@ highAndLow("1 9 3 4 -5"); // return "9 -5"
 
 > [Mumbling](http://www.codewars.com/kata/mumbling/javascript) 重复字符显示（Hint: map、Array、join）- Clever
 
-```
+```js
 accum("abcd");    // "A-Bb-Ccc-Dddd"
 accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt");    // "C-Ww-Aaa-Tttt"
@@ -125,7 +125,7 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 
 > [Vampire Numbers](https://www.codewars.com/kata/54d418bd099d650fa000032d) 数字相乘等于乘数组合（Hint: Array&String）- Good
 
-```
+```js
 6 * 21 = 126
 # 6 and 21 would be valid 'fangs' for a vampire number as the 
 # digits 6, 1, and 2 are present in both the product and multiplicands
@@ -139,13 +139,13 @@ accum("cwAt");    // "C-Ww-Aaa-Tttt"
 
 > [List to Array](https://www.codewars.com/kata/557dd2a061f099504a000088) next对象迭代为数组（Hint: Iterative）- Clever
 
-```
+```js
 {value: 1, next: {value: 2, next: {value: 3, next: null}}} => [1, 2, 3]
 ```
 
 > [Sum of the first nth term of Series](https://www.codewars.com/kata/555eded1ad94b00403000071) 递增求和（Hint: for or recursive）- Clever
 
-```
+```js
 Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16 +...
 
 SeriesSum(1) => 1 = "1"
@@ -155,7 +155,7 @@ SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
 
 > [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa) 判断是否符合条件（Hint: map）- Clever
 
-```
+```js
 [[18, 20],[45, 2],[61, 12],[37, 6],[21, 21],[78, 9]]
 // =>
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
@@ -163,7 +163,7 @@ SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
 
 > [Flatten](https://www.codewars.com/kata/5250a89b1625e5decd000413) 数组降维度（Hint:concat）- Good
 
-```
+```js
 flatten([1,2,3]) // => [1,2,3]
 flatten([[1,2,3],["a","b","c"],[1,2,3]])  // => [1,2,3,"a","b","c",1,2,3]
 flatten([[[1,2,3]]]) // => [[1,2,3]]
@@ -171,14 +171,14 @@ flatten([[[1,2,3]]]) // => [[1,2,3]]
 
 > [Binary Calculator](https://www.codewars.com/kata/binary-calculator/javascript) 二进制计算（Hint:parseInt、toString）- Good
 
-```
+```js
 1 + 1 === 10
 10 + 10 === 100
 ```
 
 > [Linked Lists - Push & BuildOneTwoThree](https://www.codewars.com/kata/linked-lists-push-and-buildonetwothree)   （Hint:new、function）- Hard
 
-```
+```js
 var chained = null
 chained = push(chained, 3)
 chained = push(chained, 2)
@@ -189,7 +189,7 @@ push(chained, 8) === 8 -> 1 -> 2 -> 3 -> null
 
 > [Complete The Pattern #1](https://www.codewars.com/kata/complete-the-pattern-number-1) n个n数字排列连接（Hint: Array(n)、for）- Clever
 
-```
+```js
 pattern(5)
 1
 22
@@ -200,7 +200,7 @@ pattern(5)
 
 > [Complete The Pattern #2](https://www.codewars.com/kata/55733d3ef7c43f8b0700007c) 字符串拼接模式（Hint: for、String） - Clever
 
-```
+```js
 pattern(1)  => '1'
 pattern(2) => "21\n2"
 pattern(5) => "54321\n5432\n543\n54\n5"
@@ -210,13 +210,13 @@ pattern(5) => "54321\n5432\n543\n54\n5"
 
 > [Tug-o'-War](https://www.codewars.com/kata/tug-o-war) 两个数组大小比较结果（Hint: if、Array）- Clever
 
-```
+```js
 [[5,0,3,2,1], [1,6,8,2,9]]  // 11 < 26 ; "Team 2 wins!"
 ```
 
 > [Invalid Input - Error Handling #1](https://www.codewars.com/kata/invalid-input-error-handling-number-1) 元音字母过滤计数（Hint: regex,replace）- Clever
 
-```
+```js
 Input: getCount('test')
 Output: {vowels:1,consonants:3}
 
@@ -232,13 +232,13 @@ Output: {vowels:0,consonants:0}
 
 > [Find the capitals](https://www.codewars.com/kata/find-the-capitals-1) 字符串中大写的位置（Hint:Array、String） - Clever
 
-```
+```js
 Test.assertSimilar( capitals('CodEWaRs'), [0,3,4,6] )
 ```
 
 > [SequenceSum](https://www.codewars.com/kata/sequencesum) 序列化排序（Hint: Array） - Clever
 
-```
+```js
 5 -> [0, 1, 3, 6, 10, 15]
 
 -5 -> [0, -1, -3, -6, -10, -15]
@@ -310,13 +310,13 @@ unusedDigits(2015, 8, 26) // "3479"
 
 > [Recursion #1 - Factorial](https://www.codewars.com/kata/recursion-number-1-factorial) 递归函数#1（Hint: Recursion）- Good
 
-```
+```js
 5! = 5 * 4 * 3 * 2 * 1 = 120
 ```
 
 > [Recursion #2 - Fibonacci](http://www.codewars.com/kata/recursion-number-2-fibonacci)递归函数#1（Hint: Recursion）- Good
 
-```
+```js
 f(n) = f(n-1) + f(n-2)
 ```
 
@@ -402,7 +402,7 @@ Result: [4,4,4,4,1,3,5]
 
 > [Money, Money, Money](https://www.codewars.com/kata/money-money-money) 计算本金几年才能达到一个数值（Hint:for、Math.log）- Clever
 
-```
+```js
  Let P be the Principal = 1000.00        Let I be the Interest Rate = 0.05        Let T be the Tax Rate = 0.18        Let D be the Desired Sum = 1100.00After 1st Year -->  P = 1041.00After 2nd Year -->  P = 1083.86After 3rd Year -->  P = 1128.30
 ```
 
@@ -414,13 +414,13 @@ Result: [4,4,4,4,1,3,5]
 
 > [mkdir -p](https://www.codewars.com/kata/mkdir-p) 判断路径若不存在则创建（Hint:fs、path、reduce）- Clever
 
-```
+```js
 mkdirp('/','tmp','made','some','dir') // will make the directory /tmp/made/some/dir
 ```
 
 > [Is valid identifier?](https://www.codewars.com/kata/is-valid-identifier) 单词正则判断（Hint:Regexp）- Good
 
-```
+```js
 Examples of valid identifiers:
 i
 wo_rd
@@ -433,7 +433,7 @@ wo rd
 ```
 > [Two to One](https://www.codewars.com/kata/two-to-one/javascript) 过滤并排序重复字符串（Hint:Set）- Good
 
-```
+```js
 a = "xyaabbbccccdefww"
 b = "xxxxyyyyabklmopq"
 longest(a, b) -> "abcdefklmopqwxy"
@@ -444,7 +444,7 @@ longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 > [Round to the next 5.](https://www.codewars.com/kata/round-to-the-next-5/javascript) 下一个整除5的数值（Hint: Math、不用循环）- Clever
 
-```
+```js
 input:    output:
 0    ->   0
 2    ->   5
@@ -463,7 +463,7 @@ etc.
 
 >[Two fighters, one winner.](https://www.codewars.com/kata/two-fighters-one-winner) 两个战士对砍谁胜出（Hint:Math）- Clever
 
-```
+```js
 declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew") => "Lew"
 
   Lew attacks Harry; Harry now has 3 health.
@@ -488,7 +488,7 @@ function Fighter(name, health, damagePerAttack) {
 
 >[Correct the time-string](https://www.codewars.com/kata/correct-the-time-string/javascript) 格式化时间的时分秒（Hint：Regexp、slice、Date基础妙用）- Clever
 
-```
+```js
 "09:10:01" -> "09:10:01"
 "11:70:10" -> "12:10:10"
 "19:99:99" -> "20:40:39"
@@ -496,7 +496,7 @@ function Fighter(name, health, damagePerAttack) {
 ```
 >[Simple Fun #49: Decipher](https://www.codewars.com/kata/simple-fun-number-49-decipher/javascript) 编译数字串为字母（Hint:match、replace、[...arr]、String.fromCharCode()）- Clever
 
-```
+```js
 charCode('e') = 101, 
 charCode('a') = 97, 
 charCode('s') = 115 
@@ -504,7 +504,7 @@ charCode('y') = 121.
 ```
 >[Simple Fun #182: Happy "g"](https://www.codewars.com/kata/simple-fun-number-182-happy-g/javascript) 字符串中是否都是紧邻的g（Hint:Regexp）- Good
 
-```
+```js
 For str = "gg0gg3gg0gg", the output should be true.
 
 For str = "gog", the output should be false.
@@ -512,7 +512,7 @@ For str = "gog", the output should be false.
 
 >[Simple Fun #173: A Hero Go To The School](https://www.codewars.com/kata/simple-fun-number-173-a-hero-go-to-the-school/javascript) 简单的循环判断（Hint: for...of简单但没写好）- Good 
 
-```
+```js
 For busesColors = ["red","red","blue"], goingToSchool = [true, true, true]), the result should be 0.
 
 Because the 0th bus is red and goes to his school.
@@ -522,15 +522,16 @@ For busesColors = ["red","red","red","blue"], goingToSchool = [false, false, fal
 
 >[A Gift Well Spent](https://www.codewars.com/kata/a-gift-well-spent/javascript) 求数组两个数值之和等价的位置（Hint:indexOf(str, fromIndex)没注意到的第二个参数）- Good
 
-```
+```js
 buy(2,[1,1])       = [0,1]
 buy(3,[1,1])       = null
 buy(5,[5,2,3,4,5]) = [1,2]
 buy(5,[1,2,3,4,5]) = [0,3] // the values at [1,2] also adds up to five, but [0,3] < [1,2]
 ```
+
 >[Simple Fun #136: Missing Values](https://www.codewars.com/kata/simple-fun-number-136-missing-values/javascript) 找出数组中只出现一次跟两次的数值（Hint：双filter的运用）- Clever
 
-```
+```js
 or arr=[1, 1, 1, 2, 2, 3], the result should be 18
 
 3 x 3 x 2 = 18
@@ -542,7 +543,7 @@ For arr=[6, 5, 4, 100, 6, 5, 4, 100, 6, 5, 4, 200], the result should be 4000000
 
 >[Ones and Zeros](https://www.codewars.com/kata/ones-and-zeros/javascript) 只含01的数组转化为二进制之和（Hint:reduce、join、parseInt）- Clever
 
-```
+```js
 Testing: [0, 0, 0, 1] ==> 1
 Testing: [0, 0, 1, 0] ==> 2
 Testing: [0, 1, 0, 1] ==> 5
@@ -555,7 +556,7 @@ Testing: [1, 0, 1, 1] ==> 11
 
 >[Simple Fun #253: Cool String](https://www.codewars.com/kata/simple-fun-number-253-cool-string/javascript) 判断是否为大小写更替的字符串（Hint:Regexp）- Good
 
-```
+```js
 For s = "aQwFdA", the output should be true
 
 For s = "aBC", the output should be false;
@@ -563,4 +564,20 @@ For s = "aBC", the output should be false;
 For s = "AaA", the output should be true;
 
 For s = "q q", the output should be false.
+```
+
+>[Speed Control](https://www.codewars.com/kata/speed-control) 计算最高速度（Hint:reduce、Math）- Clever
+
+```js
+s = 15
+
+x = [0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25]
+
+0.0-0.19, 0.19-0.5, 0.5-0.75, 0.75-1.0, 1.0-1.25, 1.25-1.50, 1.5-1.75, 1.75-2.0, 2.0-2.25
+
+(3600 * delta_distance) / s
+
+[45.6, 74.4, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]
+
+gps(x, s) === 74
 ```
