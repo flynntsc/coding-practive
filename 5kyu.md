@@ -229,7 +229,7 @@ isPP(5) // null
 Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
 ```
 
->[Best travel](https://www.codewars.com/kata/best-travel/javascript) n个数值中挑出其中m个之和最合适值（Hint: Recursion、for）- Clever
+>[Best travel](https://www.codewars.com/kata/best-travel/javascript) n个数值中挑出其中m个之和最合适值（Hint: Algorithm、Recursion、for）- Clever
 
 ```
 ls = [50, 55, 57, 58, 60] // 5选3排列
@@ -248,7 +248,9 @@ str1 is 'cedewaraaossoqqyt' and str2 is 'codewars' should return true.
 str1 is 'katas' and str2 is 'steak' should return false.
 ```
 
->[Common Denominators](https://www.codewars.com/kata/common-denominators) 共同的分母（Hint: Recursion）- Clever
+>[Common Denominators](https://www.codewars.com/kata/common-denominators) 最小公倍数（Hint: Algorithm、Recursion）- Clever
+
+`min % max === min`
 
 ```
 var lst = [ [1, 2], [1, 3], [1, 4] ]

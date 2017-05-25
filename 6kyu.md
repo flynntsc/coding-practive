@@ -4,14 +4,14 @@
 
 > [Tribonacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db) 斐波纳契数列（HINT: push、slice）- Good
 
-```
+```js
 [1,1,1,3,5,9,17,31,...]
 [0,0,1,1,2,4,7,13,24,...]
 ```
 
 > [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) 去除连续重复值（HINT: filter）- Clever
 
-```
+```js
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
 uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
@@ -19,7 +19,7 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 
 > [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regexp） - Good
 
-```
+```js
 function order(words){
 	// "is2 Thi1s T4est 3a"
 	// return "Thi1s is2 3a T4est"
@@ -29,7 +29,7 @@ function order(words){
 > [Find the divisors!
 ](https://www.codewars.com/kata/544aed4c4a30184e960010f4) 列出可整除的数字（Hint: /2） - Clever
 
-```
+```js
 divisors(12); //should return [2,3,4,6]
 divisors(25); //should return [5]
 divisors(13); //should return "13 is prime"
@@ -37,7 +37,7 @@ divisors(13); //should return "13 is prime"
 
 > [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) 生成电话号码（Hint: for、replace）
 
-```
+```js
 createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
@@ -46,7 +46,7 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 
 > [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
 
-```
+```js
 getDouble(3) => 6
 getDouble(6) => 12
 
@@ -58,7 +58,7 @@ doubleIterator(3) => 12
 
 > [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
 
-```
+```js
 logOnce = once(console.log)
 logOnce("foo") // -> "foo"
 logOnce("bar") // -> no effect
@@ -66,7 +66,7 @@ logOnce("bar") // -> no effect
 
 > [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
 
-```
+```js
 f3 = compose( f1 f2 )
    Is equivalent to...
 f3(a) = f1( f2( a ) )
@@ -77,7 +77,7 @@ compose(f , g)(x)
 
 > [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
 
-```
+```js
 chained([a,b,c,d])(input)
 // =>
 d(c(b(a(input))))
@@ -85,7 +85,7 @@ d(c(b(a(input))))
 
 > [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regexp、replace、reduce）- Clever
 
-```
+```js
 "Amore, Roma" => valid
 "A man, a plan, a canal: Panama" => valid
 "No 'x' in 'Nixon'" => valid
@@ -94,7 +94,7 @@ d(c(b(a(input))))
 
 > [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regexp）
 
-```
+```js
 decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
 ```
@@ -213,7 +213,7 @@ abbreviate("elephant-rides are really fun!")
 
 > [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
 
-```
+```js
 persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one digit
 
  persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126, // 1*2*6 = 12, and finally 1*2 = 2
@@ -230,7 +230,7 @@ persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one
 
 > [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：for、repeat、while) 从1个到n个\*来看、从n个到两边的1个\*来看- Clever
 
-```
+```js
 diamond(5) // '  *\n ***\n*****\n ***\n  *\n'
 // 效果如下
   *
@@ -421,7 +421,7 @@ solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 
 > [Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
 
-```
+```js
 a = [121, 144, 19, 161, 19, 144, 19, 11] 
 b = [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19]
 
@@ -432,13 +432,13 @@ comp(a, b)
 
 > [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 计算数值二进制1的数量（Hint:>>=、toString）- Clever
 
-```
+```js
 1234 => 10011010010 => 5 个 1
 ``` 
 
 >[Moves in squared strings (II)](https://www.codewars.com/kata/moves-in-squared-strings-ii/javascript)字符串正方形颠倒旋转2（Hint:replace,Regexp）- Clever
 
-```
+```js
 let s = "abcd\nefgh\nijkl\nmnop"
 oper(rot, s) => "ponm\nlkji\nhgfe\ndcba"
 oper(selfie_and_rot, s) => "abcd....\nefgh....\nijkl....\nmnop....\n....ponm\n....lkji\n....hgfe\n....dcba"
@@ -446,7 +446,7 @@ oper(selfie_and_rot, s) => "abcd....\nefgh....\nijkl....\nmnop....\n....ponm\n..
 
 >[Moves in squared strings (III)](http://www.codewars.com/kata/moves-in-squared-strings-iii/javascript) 字符串正方形颠倒旋转3（Hint: map）- Clever
 
-```
+```js
 let s = "abcd\nefgh\nijkl\nmnop"
 oper(diag_1_sym, s) => "aeim\nbfjn\ncgko\ndhlp"
 oper(rot_90_clock, s) => "miea\nnjfb\nokgc\nplhd"
@@ -454,7 +454,7 @@ oper(selfie_and_diag1, s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
 ```
 >[Password generator](https://www.codewars.com/kata/password-generator/javascript) 密码生成器（Hint:Math.random、题目可以更难一点）- Good
 
-```
+```js
 6 - 20 characters long
 contains at least one lowercase letter
 contains at least one uppercase letter
@@ -465,7 +465,7 @@ contains only alphanumeric characters (no special characters)
 >[Simple Fun #170: Sum Groups
 ](https://www.codewars.com/kata/simple-fun-number-170-sum-groups/javascript) 过滤数组直到没有连续的奇、偶数（Hint:for、Recursion）- Clever
 
-```
+```js
 [2, 1, 2, 2, 6, 5, 0, 2, 0, 5, 5, 7, 7, 4, 3, 3, 9]  -->
         2+2+6       0+2+0     5+5+7+7       3+3+9
 [2, 1,   10,    5,    2,        24,     4,   15   ] -->
@@ -476,14 +476,14 @@ The length of final array is 6
 
 >[Cycle Detection: greedy algorithm](https://www.codewars.com/kata/cycle-detection-greedy-algorithm/javascript) 符合c=ax+b公式的数组求值（Hint:for、object键值的运用）- Clever
 
-```
+```js
 cycle([2,3,4,2,3,4]) // [0,3]
 cycle([1,2,3,4]) // []
 ```
 
 >[Counting Duplicates](https://www.codewars.com/kata/counting-duplicates/javascript) 字符串中重复字的个数（Hint：sort、Regexp、\1、filter、lastIndexOf）- Clever 
 
-```
+```js
 "abcde" -> 0 # no characters repeats more than once
 "aabbcde" -> 2 # 'a' and 'b'
 "aabbcdeB" -> 2 # 'a' and 'b'
@@ -494,7 +494,7 @@ cycle([1,2,3,4]) // []
 
 >[Which are in?](https://www.codewars.com/kata/which-are-in/javascript) 数组2中字符串是否包含数组1中的字符串（Hint:Array、filter、some）- Clever
 
-```
+```js
 a1 = ["arp", "live", "strong"]
 a2 = ["lively", "alive", "harp", "sharp", "armstrong"]
 returns ["arp", "live", "strong"]
@@ -508,7 +508,7 @@ returns []
 
 `除了遍历index判断，还可直接正则过滤`
 
-```
+```js
 "This is a test!", 1 -> "hsi  etTi sats!"
 "This is a test!", 2 -> "hsi  etTi sats!" -> "s eT ashi tist!"
 
@@ -520,7 +520,7 @@ function decrypt(encryptedText, n)
 
 `知道结果结合的情况下，可直接写出集合再直接判断即可，最省时省力`
 
-```
+```js
 In effect: 89 = 8^1 + 9^2
 The next number in having this property is 135.
 See this property again: 135 = 1^1 + 3^2 + 5^3
@@ -534,7 +534,7 @@ sumDigPow(90, 100) == []
 
 >[Build Tower](https://www.codewars.com/kata/build-tower) 用数组表示一个金字塔（Hint:Array、Array.from、[...arr]、repeat）- Clever
 
-```
+```js
 // 3 floors
 [
   '  *  ', 
@@ -557,7 +557,7 @@ sumDigPow(90, 100) == []
 
 `代码最少方法、计算最少方法`
 
-```
+```js
 isPrime(-2) === true
 isPrime(0) === false
 isPrime(1) === false
@@ -567,7 +567,7 @@ isPrime(2) === true
 
 `以窗口为对象，计算各窗口消耗的时间，再求出最大值`
 
-```
+```js
 queueTime([5,3,4], 1)
 // should return 12
 // because when n=1, the total time is just the sum of the times
@@ -588,13 +588,13 @@ queueTime([2,3,10], 2)
 
 >[Find the missing letter](https://www.codewars.com/kata/find-the-missing-letter) 找出中间缺失的字母（Hint:charCodeAt、fromCharCode VS codePointAt、fromCodePoint = 后者ES6更完善）- Good
 
-```
+```js
 ['a','b','c','d','f'] -> 'e'
 ['O','Q','R','S'] -> 'P'
 ```
 >[Triple trouble](https://www.codewars.com/kata/triple-trouble-1/) 连续数字是否再次出现（Hint:Regexp、for）- Clever
 
-```
+```js
 tripledouble(451999277, 41177722899) == 1 // num1 has straight triple 999s and 
                                           // num2 has straight double 99s
 
@@ -607,13 +607,13 @@ tripledouble(666789, 12345667) == 1
 
 >[Sort the odd](https://www.codewars.com/kata/sort-the-odd/javascript) 对数组中的奇数进行排序（Hint:filter、sort、map）- Clever
 
-```
+```js
 sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
 ```
 
 >[Playing with passphrases](https://www.codewars.com/kata/playing-with-passphrases/javascript) 简单的密码加密（Hint:replace、Regexp）- Clever
 
-```
+```js
 your text: "BORN IN 2015!", shift 1
 
 1 + 2 + 3 -> "CPSO JO 7984!"
@@ -625,7 +625,7 @@ your text: "BORN IN 2015!", shift 1
 
 > [Simple Fun #259: Different Digits Number Search](https://www.codewars.com/kata/59113da398dcd456270000a8) 找出没重复数值的数（Hint:find、Regexp）- Clever
 
-```
+```js
 For arr = [22, 111, 101, 124, 33, 30], the output should be 124
 
 For arr = [1111, 404], the output should be -1
@@ -635,7 +635,7 @@ For arr = [1111, 404], the output should be -1
 
 `莫忘Infinity`
 
-```
+```js
 twoArraysNthElement([1, 3, 4],[2, 6, 8],5) // 8
 twoArraysNthElement([1, 3, 5],[2, 4],2) // 3
 twoArraysNthElement([6,19,21,30,34,35,44,48],[3,4,5,9,14,16,25,32,36,37,41,53],11) // 32
