@@ -256,3 +256,12 @@ str1 is 'katas' and str2 is 'steak' should return false.
 var lst = [ [1, 2], [1, 3], [1, 4] ]
 Test.assertEquals(convertFrac(lst), "(6,12)(4,12)(3,12)")
 ```
+
+>[Integers: Recreation One](https://www.codewars.com/kata/integers-recreation-one) 先算出数值的除数平方之和（Hint:Math）- Clever
+
+`更快的算出一个值的除数`
+
+```
+list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
+list_squared(42, 250) --> [[42, 2500], [246, 84100]]
+```

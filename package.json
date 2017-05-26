@@ -2,9 +2,15 @@
   "name": "coding-practive",
   "version": "1.0.0",
   "description": "coding in codewars.com or others",
-  "keywords": ["codewars.com", "solution", "Kata", "hint"],
+  "keywords": [
+    "codewars.com",
+    "solution",
+    "Kata",
+    "hint"
+  ],
   "main": "index.js",
   "repository": "https://github.com/flynntsc/coding-practive.git",
   "author": "Flyn",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
