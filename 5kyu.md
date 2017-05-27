@@ -265,3 +265,13 @@ Test.assertEquals(convertFrac(lst), "(6,12)(4,12)(3,12)")
 list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
 list_squared(42, 250) --> [[42, 2500], [246, 84100]]
 ```
+
+>[Convert string to camel case](https://www.codewars.com/kata/convert-string-to-camel-case) 格式化为骆驼写法（Hint:replace、Regexp）- Clever
+
+```
+// returns "theStealthWarrior"
+toCamelCase("the-stealth-warrior") 
+
+// returns "TheStealthWarrior"
+toCamelCase("The_Stealth_Warrior")
+```
