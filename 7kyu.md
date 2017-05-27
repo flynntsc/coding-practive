@@ -581,3 +581,13 @@ x = [0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25]
 
 gps(x, s) === 74
 ```
+
+>[Replace every nth](https://www.codewars.com/kata/replace-every-nth) 替换每第n*i个的值（Hint: replace、Regexp）- Clever
+
+```js
+n:         2
+oldValue: 'a'
+newValue: 'o'
+"Vader said: No, I am your father!" -> "Vader soid: No, I am your fother!"
+  1     2          3        4       -> 2nd and 4th occurence are replaced
+```
