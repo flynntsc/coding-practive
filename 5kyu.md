@@ -275,3 +275,12 @@ toCamelCase("the-stealth-warrior")
 // returns "TheStealthWarrior"
 toCamelCase("The_Stealth_Warrior")
 ```
+
+>[Pete, the baker](https://www.codewars.com/kata/pete-the-baker) 按配方材料最多能做出几份面包（Hint: Object.keys()、reduce）- Clever
+
+```
+// must return 2
+cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200}); 
+// must return 0
+cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000});
+```
