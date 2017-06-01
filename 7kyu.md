@@ -605,3 +605,14 @@ Product of value and index:
 
 Output: 2, 3, 4, 23, 5
 ```
+
+>[No ifs no buts](https://www.codewars.com/kata/no-ifs-no-buts)没有if和?实现判断（Hint: switch、&&、||）- Clever
+
+```
+// 需相同效果
+var noIfsNoButs = function (a,b) {
+  if(a > b) return a + " is greater than " + b
+  else if(a < b) return a + " is smaller than " + b
+  else if(a == b) return a + " is equal to " + b
+}
+```
