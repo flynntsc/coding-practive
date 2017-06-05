@@ -284,3 +284,14 @@ cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, mil
 // must return 0
 cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000});
 ```
+
+> [Regex Password Validation](https://www.codewars.com/kata/regex-password-validation) 单个正则验证密码（Hint: Regexp）- Clever
+
+`只有[A-Za-z0-9]`
+
+```
+At least six characters long
+contains a lowercase letter
+contains an uppercase letter
+contains a number
+```
