@@ -295,3 +295,9 @@ contains a lowercase letter
 contains an uppercase letter
 contains a number
 ```
+
+>[Soundex](https://www.codewars.com/kata/soundex) 单词替换转义（Hint:replace）- Clever 
+
+```
+'Sarah Connor' => 'S600 C560'
+```
