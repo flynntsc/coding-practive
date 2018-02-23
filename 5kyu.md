@@ -36,7 +36,7 @@ Function.prototype.pipe = ???
 var addOne = function(e) { return e + 1 };
 
 var square = function(e) { return e * e };
-
+value
 var result = [1,2,3,4,5].map(addOne.pipe(square)) //-> [4,9,16,25,36]
 ```
 
@@ -64,6 +64,45 @@ addTwo + 5 // 7
 addTwo(3) // 5
 addTwo(3)(5) // 10
 ```
+
+- [Can (a== 1 && a ==2 && a==3) ever evaluate to true?](https://stackoverflow.com/questions/48270127/can-a-1-a-2-a-3-ever-evaluate-to-true) 考==的隐形转换（Hint:toString、valueOf）- Clever
+
+Solution 1 => 隐性转换依次调用valueOf->toString方法
+
+```js
+const a = {
+  i: 1,
+  toString() {
+    return a.i++
+  }
+}
+console.log(a == 1 && a == 2 && a == 3)
+```
+
+Solution 2 => 也可用于变量命名的【零宽连字符】[Zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner)（也了解下【零宽不连字】[Zero-width non-joiner](https://en.wikipedia.org/wiki/Zero-width_non-joiner)）
+
+```js
+var a= 1;
+var a‍= 2; //one zero-width character
+var a‍‍= 3; //two zero-width characters (or you can use the other one)
+console.log(a==1&&a‍==2&&a‍‍==3)
+```
+
+Solution 3 => 数组对象的toString方法[由数组中的每个元素的 toString() 返回值经调用 join() 方法连接（由逗号隔开）组成](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
+
+```js
+const a = [1, 2, 3]
+a.join = a.shift
+console.log(a == 1 && a == 2 && a == 3)
+```
+
+Solution 4 => 使用ES6的方法
+
+```js
+let a = { [Symbol.toPrimitive]: (i => () => ++i)(0) }
+console.log(a == 1 && a == 2 && a == 3)
+```
+
 
 - [Function Cache](https://www.codewars.com/kata/525481903700c1a1ff0000e1) 缓存功能的函数（Hint: JSON.stringify、arguments、apply）- Good
 
