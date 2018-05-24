@@ -1,7 +1,7 @@
-## 4 kyu
+# 4 kyu
 
 
-> [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）- Hard
+### [Undo/Redo](https://www.codewars.com/kata/531489f2bb244a5b9f00077e) 撤销/重复操作（Hint: Array、stack）- Hard
 
 ```
 function undoRedo(object) {
@@ -14,7 +14,7 @@ function undoRedo(object) {
 	}
 }
 ```
-> [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、RegExp、match）- Hard
+### [Default Arguments](https://www.codewars.com/kata/52605419be184942d400003d) 默认函数（Hint: function、RegExp、match）- Hard
 
 ```
 function add(a,b) { return a+b;};
@@ -33,12 +33,12 @@ add_(10); // returns NaN
 add_(10,10); // returns 20
 ```
 
-> [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: RegExp、toString、apply、bind）- Hard
+### [Dependency Injection](https://www.codewars.com/kata/5302d655be2a91068b0001fb) 依赖注射（Hint: RegExp、toString、apply、bind）- Hard
 
 ```
 ```
 
-> [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) 下一个更大数值大小的队列（Hint:for、split、+1）- Clever
+### [Next bigger number with the same digits](https://www.codewars.com/kata/55983863da40caa2c900004e) 下一个更大数值大小的队列（Hint:for、split、+1）- Clever
 
 ```
 nextBigger(12)==21
@@ -46,7 +46,7 @@ nextBigger(513)==531
 nextBigger(2017)==2071
 ```
 
->[Remove Zeros](https://www.codewars.com/kata/remove-zeros/train/javascript) 不借助数组或对象方法将零排最后（Hint:for、i < l的情况i++，l++总次数不变）- Good
+### [Remove Zeros](https://www.codewars.com/kata/remove-zeros/train/javascript) 不借助数组或对象方法将零排最后（Hint:for、i < l的情况i++，l++总次数不变）- Good
 
 ```
 [7, 2, 3, 0, 4, 6, 0, 0, 13, 0, 78, 0, 0, 19, 14]
@@ -56,7 +56,7 @@ is transformed into
 [7, 2, 3, 4, 6, 13, 78, 19, 14, 0, 0, 0, 0, 0, 0]
 ```
 
->[Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of）- Clever
+### [Recover a secret string from random triplets](https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/javascript) 从一个数组组合还原出单词（Hint: Recursion、for...of）- Clever
 
 `所有数组中均在第一个必然是单词第一个，以此递归`
 
@@ -74,7 +74,7 @@ const triplets1 = [
 
 recoverSecret(triplets1) // 结果 secret1
 ```
->[Snail](https://www.codewars.com/kata/snail/javascript) 按不同的顺序拆解二维数组（Hint: for、Array、.pop、.shift、push、reverse）- Clever
+### [Snail](https://www.codewars.com/kata/snail/javascript) 按不同的顺序拆解二维数组（Hint: for、Array、.pop、.shift、push、reverse）- Clever
 
 `4个方向依次操作一遍作为循环`
 
@@ -93,7 +93,7 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 ![Snail图片事例](http://www.haan.lu/files/2513/8347/2456/snail.png)
 
 
->[Valid Braces](https://www.codewars.com/kata/valid-braces) 验证左右括号完全对应（Hint:RegExp、while、replace）- Clever
+### [Valid Braces](https://www.codewars.com/kata/valid-braces) 验证左右括号完全对应（Hint:RegExp、while、replace）- Clever
 
 ```
 validBraces( "(){}[]" ) => returns true 
@@ -102,7 +102,7 @@ validBraces( "[(])" ) => returns false
 validBraces( "([{}])" ) => returns true
 ```
 
->[Roman Numerals Encoder](https://www.codewars.com/kata/roman-numerals-encoder) 罗马数字编译器（Hint:Array、Object、for、while）- Good
+### [Roman Numerals Encoder](https://www.codewars.com/kata/roman-numerals-encoder) 罗马数字编译器（Hint:Array、Object、for、while）- Good
 
 ```
 Symbol    Value
@@ -121,14 +121,14 @@ solution(1990) // 'MCMXC'
 solution(2007) // 'MMVII'
 ```
 
->[Reverse polish notation calculator](https://www.codewars.com/kata/reverse-polish-notation-calculator) 逆波兰表示法编译器（Hint:Array、Regexp、switch）- Clever
+### [Reverse polish notation calculator](https://www.codewars.com/kata/reverse-polish-notation-calculator) 逆波兰表示法编译器（Hint:Array、Regexp、switch）- Clever
 
 ```
 // 操作符前两数字优先计算
 5 1 2 + 4 * + 3 - 等同于 5 + ((1 + 2) * 4) - 3
 ```
 
->[Human readable duration format](https://www.codewars.com/kata/human-readable-duration-format/) 将秒数格式化为人类易读模式（Hint: object、for...in、array、replace）- Clever
+### [Human readable duration format](https://www.codewars.com/kata/human-readable-duration-format/) 将秒数格式化为人类易读模式（Hint: object、for...in、array、replace）- Clever
 
 `直接计算也可，只是有更clever的方法`
 
@@ -138,7 +138,7 @@ solution(2007) // 'MMVII'
   formatDuration(3662)  // returns "1 hour, 1 minute and 2 seconds"
 ```
 
-[Square into Squares. Protect trees!](https://www.codewars.com/kata/square-into-squares-protect-trees) 一个数平方是否等于其他不重复的数平方之和（Hint: Recursion）- Clever
+### [Square into Squares. Protect trees!](https://www.codewars.com/kata/square-into-squares-protect-trees) 一个数平方是否等于其他不重复的数平方之和（Hint: Recursion）- Clever
 
 `结果[x1 ... xk]，基本上xk都将是n-1`
 
@@ -150,14 +150,14 @@ solution(2007) // 'MMVII'
 decompose(11) // [1,2,4,10]
 ```
 
->[Sum Strings as Numbers](https://www.codewars.com/kata/sum-strings-as-numbers) 计算两个字符串的数值之和（Hint:for、Array、reverse）- Good
+### [Sum Strings as Numbers](https://www.codewars.com/kata/sum-strings-as-numbers) 计算两个字符串的数值之和（Hint:for、Array、reverse）- Good
 
 ```
 sumStrings('1','2') // => '3'
 sumStrings('712569312664357328695151392','8100824045303269669937') // => '712577413488402631964821329'
 ```
 
-> [Text align justify](https://www.codewars.com/kata/text-align-justify) 格式化文本为两边对齐（Hint:for、array、reduce、map）- Good
+### [Text align justify](https://www.codewars.com/kata/text-align-justify) 格式化文本为两边对齐（Hint:for、array、reduce、map）- Good
 
 ```
 Lorem  ipsum  dolor  sit amet,
@@ -190,7 +190,7 @@ lacus,   ut   elementum  justo
 nulla et dolor.
 ```
 
->[Strings Mix](https://www.codewars.com/kata/strings-mix/javascript) 混合小写字母大于1的字符串（Hint: RegExp、reduce、for、sort）- Clever
+### [Strings Mix](https://www.codewars.com/kata/strings-mix/javascript) 混合小写字母大于1的字符串（Hint: RegExp、reduce、for、sort）- Clever
 
 `arr.reduce((x, y) => (x[y] = 1 + (x[y] || 0), x), {})`
 
@@ -212,7 +212,7 @@ s2="Yes they are here! aaaaa fffff"
 mix(s1, s2) --> "=:aaaaaa/2:eeeee/=:fffff/1:tt/2:rr/=:hh"
 ```
 
->[Pyramid Slide Down](https://www.codewars.com/kata/pyramid-slide-down/javascript) 金字塔数组上下临近数字相加最大值（Hint:while、map、reduceRight）- Clever
+### [Pyramid Slide Down](https://www.codewars.com/kata/pyramid-slide-down/javascript) 金字塔数组上下临近数字相加最大值（Hint:while、map、reduceRight）- Clever
 
 `从下而上遍历计算比较才能齐全`
 

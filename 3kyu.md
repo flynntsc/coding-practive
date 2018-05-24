@@ -1,6 +1,6 @@
-## 3kyu
+# 3kyu
 
->[Molecule to atoms](https://www.codewars.com/kata/molecule-to-atoms)分子分离为原子（Hint:Regexp、replace）- Clever
+### [Molecule to atoms](https://www.codewars.com/kata/molecule-to-atoms)分子分离为原子（Hint:Regexp、replace）- Clever
 
 ```js
 var water = 'H2O';
@@ -13,7 +13,7 @@ var fremySalt = 'K4[ON(SO3)2]2';
 parseMolecule(fremySalt); // return {K: 4, O: 14, N: 2, S: 4}
 ```
 
->[Did you mean ...?](https://www.codewars.com/kata/did-you-mean-dot-dot-dot) 找出输入的字符串与数组中字符串最相似的那个（Hint: Algorithm、matrix、）- Good
+### [Did you mean ...?](https://www.codewars.com/kata/did-you-mean-dot-dot-dot) 找出输入的字符串与数组中字符串最相似的那个（Hint: Algorithm、matrix、）- Good
 
 `莱文斯坦距离`
 

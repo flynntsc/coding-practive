@@ -1,15 +1,15 @@
 
-## 6 kyu
+# 6 kyu
 
 
-> [Tribonacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db) 斐波纳契数列（HINT: push、slice）- Good
+### [Tribonacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db) 斐波纳契数列（HINT: push、slice）- Good
 
 ```js
 [1,1,1,3,5,9,17,31,...]
 [0,0,1,1,2,4,7,13,24,...]
 ```
 
-> [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) 去除连续重复值（HINT: filter）- Clever
+### [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667) 去除连续重复值（HINT: filter）- Clever
 
 ```js
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
@@ -17,7 +17,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-> [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regexp） - Good
+### [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f) 按内含数字排序字符串（Hint：Regexp） - Good
 
 ```js
 function order(words){
@@ -26,7 +26,7 @@ function order(words){
 }
 ```
 
-> [Find the divisors!
+### [Find the divisors!
 ](https://www.codewars.com/kata/544aed4c4a30184e960010f4) 列出可整除的数字（Hint: /2） - Clever
 
 ```js
@@ -35,16 +35,16 @@ divisors(25); //should return [5]
 divisors(13); //should return "13 is prime"
 ```
 
-> [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) 生成电话号码（Hint: for、replace）
+### [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) 生成电话号码（Hint: for、replace）
 
 ```js
 createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 ```
 
-> [Evil Autocorrect Prank](https://www.codewars.com/kata/538ae2eb7a4ba8c99b000439) 替换指定字符串（Hint: replace、/b）- Good
+### [Evil Autocorrect Prank](https://www.codewars.com/kata/538ae2eb7a4ba8c99b000439) 替换指定字符串（Hint: replace、/b）- Good
 
 
-> [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
+### [Function iteration](https://www.codewars.com/kata/54b679eaac3d54e6ca0008c9) 函数迭代（Hint: for）- Good
 
 ```js
 getDouble(3) => 6
@@ -56,7 +56,7 @@ var doubleIterator = createIterator(getDouble, 2); // This means, it runs *getDo
 doubleIterator(3) => 12
 ```
 
-> [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
+### [Once](https://www.codewars.com/kata/5307ff5b588fe6d7000000a5) 只执行一次的函数（Hint: return）- Good
 
 ```js
 logOnce = once(console.log)
@@ -64,7 +64,7 @@ logOnce("foo") // -> "foo"
 logOnce("bar") // -> no effect
 ```
 
-> [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
+### [Function Composition](https://www.codewars.com/kata/5421c6a2dda52688f6000af8) 函数合成（Hint: FP、closure）- Clever
 
 ```js
 f3 = compose( f1 f2 )
@@ -75,7 +75,7 @@ compose(f , g)(x)
 => f( g( x ) )
 ```
 
-> [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
+### [Unary function chainer](https://www.codewars.com/kata/54ca3e777120b56cb6000710) 链式调用函数（Hint: FP、closure、reduce）- Good
 
 ```js
 chained([a,b,c,d])(input)
@@ -83,7 +83,7 @@ chained([a,b,c,d])(input)
 d(c(b(a(input))))
 ```
 
-> [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regexp、replace、reduce）- Clever
+### [Palindrome for your Dome](https://www.codewars.com/kata/53046ceefe87e4905e00072a) 过滤反转字符串（Hint: Regexp、replace、reduce）- Clever
 
 ```js
 "Amore, Roma" => valid
@@ -92,14 +92,14 @@ d(c(b(a(input))))
 "Abba Zabba, you're my only friend" => invalid
 ```
 
-> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regexp）
+### [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e) 解码摩尔斯（Hint: Array、join、Regexp）
 
 ```js
 decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
 ```
 
-> [IQ Test](https://www.codewars.com/kata/iq-test) 筛选与其他不同奇偶数字的位置（Hint: map、reduce）- Clever
+### [IQ Test](https://www.codewars.com/kata/iq-test) 筛选与其他不同奇偶数字的位置（Hint: map、reduce）- Clever
 
 ```js
 iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even
@@ -107,13 +107,13 @@ iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers 
 iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd
 ```
 
-> [Find the odd int](https://www.codewars.com/kata/find-the-odd-int) 找出那个唯一的奇数个数的数值（Hint:\^,reduce）- Clever
+### [Find the odd int](https://www.codewars.com/kata/find-the-odd-int) 找出那个唯一的奇数个数的数值（Hint:\^,reduce）- Clever
 
 ```js
 findOd([1,3,1]) // 3
 ```
 
-> [https://www.codewars.com/kata/find-the-parity-outlier](https://www.codewars.com/kata/find-the-parity-outlier) 找出唯一的一个奇/偶数（Hint:filter）- Clever
+### [https://www.codewars.com/kata/find-the-parity-outlier](https://www.codewars.com/kata/find-the-parity-outlier) 找出唯一的一个奇/偶数（Hint:filter）- Clever
 
 ```js
 [2, 4, 0, 100, 4, 11, 2602, 36]
@@ -125,7 +125,7 @@ Should return: 11
 Should return: 160
 ```
 
-> [Equal Sides Of An Array](https://www.codewars.com/kata/equal-sides-of-an-array) 对等切数组的位置（Hint:slice,reduce）- Clever
+### [Equal Sides Of An Array](https://www.codewars.com/kata/equal-sides-of-an-array) 对等切数组的位置（Hint:slice,reduce）- Clever
 
 ```js
 findEvenIndex([1,2,3,4,3,2,1]) // 3
@@ -134,7 +134,7 @@ findEvenIndex([1,2,3,4,5,6]) // -1
 findEvenIndex([20,10,30,10,10,15,35]) // 3
 ```
 
-> [Stop gninnipS My sdroW!](https://www.codewars.com/kata/stop-gninnips-my-sdrow) 指定字符串中的单词反序（Hint: Regexp,replace）- Clever
+### [Stop gninnipS My sdroW!](https://www.codewars.com/kata/stop-gninnips-my-sdrow) 指定字符串中的单词反序（Hint: Regexp,replace）- Clever
 
 ```js
 spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
@@ -142,7 +142,7 @@ spinWords( "This is a test") => returns "This is a test"
 spinWords( "This is another test" )=> returns "This is rehtona test"
 ```
 
-> [Dubstep](https://www.codewars.com/kata/dubstep) 替换去除指定单词并拼接（Hint:split、filter）- Clever
+### [Dubstep](https://www.codewars.com/kata/dubstep) 替换去除指定单词并拼接（Hint:split、filter）- Clever
 
 ```js
 songDecoder("AWUBBWUBC") //"A B C"
@@ -150,7 +150,7 @@ songDecoder("AWUBWUBWUBBWUBWUBWUBC") //"A B C"
 songDecoder("WUBAWUBBWUBCWUB") // "A B C"
 ```
 
-> [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00) 数值组合的不断求和（Hint:9 | reduce）- Clever
+### [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00) 数值组合的不断求和（Hint:9 | reduce）- Clever
 
 ```js
 digital_root(16)
@@ -178,7 +178,7 @@ digital_root(493193)
 => 2
 ```
 
-> [Word a10n (abbreviation)](https://www.codewars.com/kata/word-a10n-abbreviation) 字符串替换（Hint: Regexp,replace）- Good
+### [Word a10n (abbreviation)](https://www.codewars.com/kata/word-a10n-abbreviation) 字符串替换（Hint: Regexp,replace）- Good
 
 ```js
 abbreviate("elephant-rides are really fun!")
@@ -193,13 +193,13 @@ abbreviate("elephant-rides are really fun!")
 === "e6t-r3s are r4y fun!"
 ```
 
-> [Multiples of 3 and 5](https://www.codewars.com/kata/multiples-of-3-and-5)能整除3和5的数值之和（Hint:%）- Clever
+### [Multiples of 3 and 5](https://www.codewars.com/kata/multiples-of-3-and-5)能整除3和5的数值之和（Hint:%）- Clever
 
 ```js
 // <10 => 3+5+6+9 => 23
 ```
 
-> [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) 字符串中重复/无重复的转化（Hint:String、Array）- Clever
+### [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) 字符串中重复/无重复的转化（Hint:String、Array）- Clever
 
 ```js
 "din" => "((("
@@ -211,7 +211,7 @@ abbreviate("elephant-rides are really fun!")
 "(( @" => "))(("
 ```
 
-> [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
+### [ersistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec) 数字不断相乘的次数（Hint:Loop、Recursion）- Clever
 
 ```js
 persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one digit
@@ -222,13 +222,13 @@ persistence(39) === 3 // because 3*9 = 27, 2*7 = 14, 1*4=4 // and 4 has only one
 ```
 
 
-> [Multi-tap Keypad Text Entry on an Old Mobile Phone](https://www.codewars.com/kata/54a2e93b22d236498400134b) 九宫格输入法按键次数计算（Hint:Array、Switch）- Clever
+### [Multi-tap Keypad Text Entry on an Old Mobile Phone](https://www.codewars.com/kata/54a2e93b22d236498400134b) 九宫格输入法按键次数计算（Hint:Array、Switch）- Clever
 
 ```
 
 ```
 
-> [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：for、repeat、while) 从1个到n个\*来看、从n个到两边的1个\*来看- Clever
+### [Give me Diamond](https://www.codewars.com/kata/give-me-diamond) 画个平行四边形/钻石(Hint：for、repeat、while) 从1个到n个\*来看、从n个到两边的1个\*来看- Clever
 
 ```js
 diamond(5) // '  *\n ***\n*****\n ***\n  *\n'
@@ -240,7 +240,7 @@ diamond(5) // '  *\n ***\n*****\n ***\n  *\n'
   *
 ```
 
-> [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times) 过滤超过指定个数的数组（Hint:Object、filter）- Clever
+### [Delete occurrences of an element if it occurs more than n times](https://www.codewars.com/kata/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times) 过滤超过指定个数的数组（Hint:Object、filter）- Clever
 
 ```js
 deleteNth([1, 1, 1, 1], 2) // return [1,1]
@@ -248,14 +248,14 @@ deleteNth([1, 1, 1, 1], 2) // return [1,1]
 deleteNth([20, 37, 20, 21], 1) // return [20,37,21]
 ```
 
-> [Format a string of names like 'Bart, Lisa & Maggie'](https://www.codewars.com/kata/53368a47e38700bd8300030d/solutions/javascript) 拼接数组中对象的属性（Hint:reduce、map、replace）- Clever
+### [Format a string of names like 'Bart, Lisa & Maggie'](https://www.codewars.com/kata/53368a47e38700bd8300030d/solutions/javascript) 拼接数组中对象的属性（Hint:reduce、map、replace）- Clever
 
 ```js
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lisa & Maggie'list([ {name: 'Bart'}, {name: 'Lisa'} ])// returns 'Bart & Lisa'list([ {name: 'Bart'} ])// returns 'Bart'list([])// returns ''
 
 ```
 
-> [Checking Groups](https://www.codewars.com/kata/checking-groups) 检测括号是否配对（Hint:Object）- Good
+### [Checking Groups](https://www.codewars.com/kata/checking-groups) 检测括号是否配对（Hint:Object）- Good
 
 ```js
 // True
@@ -265,7 +265,7 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 {(})([][])
 ```
 
-> [Regexp Basics - is it IPv4 address?](https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address) 判断是否为IPv4地址（Hint:Regexp）- Clever
+### [Regexp Basics - is it IPv4 address?](https://www.codewars.com/kata/regexp-basics-is-it-ipv4-address) 判断是否为IPv4地址（Hint:Regexp）- Clever
 
 ```js
 "".ipv4Address() // false
@@ -285,7 +285,7 @@ list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])// returns 'Bart, Lis
 " 127.0.0.1 ".ipv4Address() // false
 ```
 
-> [Rank Vector](https://www.codewars.com/kata/rank-vector) 排序位置标示（Hint:indexOf）- Good
+### [Rank Vector](https://www.codewars.com/kata/rank-vector) 排序位置标示（Hint:indexOf）- Good
 
 ```js
 ranks([9,3,6,10]) = [2,4,3,1]
@@ -293,7 +293,7 @@ ranks([9,3,6,10]) = [2,4,3,1]
 ranks([3,3,3,3,3,5,1]) = [2,2,2,2,2,1,7]
 ```
 
-> ["this" is an other problem](https://www.codewars.com/kata/this-is-an-other-problem) 构造函数的值变化监听（Hint:Object.defineProperty）- Good
+### ["this" is an other problem](https://www.codewars.com/kata/this-is-an-other-problem) 构造函数的值变化监听（Hint:Object.defineProperty）- Good
 
 ```js
 var namedOne = new NamedOne("Naomi","Wang")
@@ -315,7 +315,7 @@ namedOne.fullName = "TomDonnovan" // -> no : no space between first & last names
 namedOne.fullName // -> "Bill Smith" (unchanged)
 ```
 
-> [Adjacent pairs in a string](https://www.codewars.com/kata/adjacent-pairs-in-a-string) 临近相同单词的个数（Hint:Regexp、match、\1）- Clever
+### [Adjacent pairs in a string](https://www.codewars.com/kata/adjacent-pairs-in-a-string) 临近相同单词的个数（Hint:Regexp、match、\1）- Clever
 
 ```js
 //returns 0
@@ -331,7 +331,7 @@ countAdjacentPairs('dog dog dog')
 countAdjacentPairs('cat cat dog dog cat')
 ```
 
-> [Sequence generator](https://www.codewars.com/kata/sequence-generator) 序列迭代器（Hint:while、reduce）- Clever
+### [Sequence generator](https://www.codewars.com/kata/sequence-generator) 序列迭代器（Hint:while、reduce）- Clever
 
 ```js
 fib = sequenceGen(0, 1)
@@ -359,7 +359,7 @@ for(i = 0;i < 10;i++){
 arr === [2, 1, 3, 4, 7, 11, 18, 29, 47, 76]
 ```
 
-> [DNA Sequence Tester](https://www.codewars.com/kata/dna-sequence-tester) DNA序列配对测试（Hint:indexOf）- Clever
+### [DNA Sequence Tester](https://www.codewars.com/kata/dna-sequence-tester) DNA序列配对测试（Hint:indexOf）- Clever
 
 ```js
 seq1 = 'GTCTTAGTGTAGCTATGCATGC';  // NB up-down
@@ -386,7 +386,7 @@ checkDNA (seq1, seq2);
 // (seq2)  down-CATCGCGACGATCGACTAGCTAGCATGCA-up
 ```
 
-> [Word Patterns](https://www.codewars.com/kata/word-patterns) 单词是否同规律排列（Hint:map、indexOf、every）- Clever
+### [Word Patterns](https://www.codewars.com/kata/word-patterns) 单词是否同规律排列（Hint:map、indexOf、every）- Clever
 
 ```js
 wordPattern('abab', 'truck car truck car') === true
@@ -395,31 +395,31 @@ wordPattern('abab', 'apple banana banana apple') === false
 wordPattern('aaaa', 'cat cat dog cat') === false
 ```
 
-> [知乎上问题](https://zhuanlan.zhihu.com/p/23981897) 判断 N 个布尔值是否全部相等（Hint:arr.indexOf） - Clever
+### [知乎上问题](https://zhuanlan.zhihu.com/p/23981897) 判断 N 个布尔值是否全部相等（Hint:arr.indexOf） - Clever
 
 ```js
 return arr.indexOf(!arr[0]) < 0
 ```
 
-> [Multiples of 3 and 5 redux](https://www.codewars.com/kata/multiples-of-3-and-5-redux) 3或5的倍数之和（Hint: | 0）- Clever
+### [Multiples of 3 and 5 redux](https://www.codewars.com/kata/multiples-of-3-and-5-redux) 3或5的倍数之和（Hint: | 0）- Clever
 
 ```js
 solution (10) // => 23 = 3 + 5 + 6 + 9
 solution (20) // => 78 = 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18
 ```
 
-> [Calculate the function f(x) for a simple linear sequence (Easy)](http://www.codewars.com/kata/calculate-the-function-f-x-for-a-simple-linear-sequence-easy) 写出公式（Hint:三元符号）- Clever
+### [Calculate the function f(x) for a simple linear sequence (Easy)](http://www.codewars.com/kata/calculate-the-function-f-x-for-a-simple-linear-sequence-easy) 写出公式（Hint:三元符号）- Clever
 
 ```
 
 ```
 
-> [String incrementer](https://www.codewars.com/kata/string-incrementer) 字符串加1（Hint:slice）- Clever
+### [String incrementer](https://www.codewars.com/kata/string-incrementer) 字符串加1（Hint:slice）- Clever
 
 ```
 ```
 
-> [Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
+### [Are they the "same"?](https://www.codewars.com/kata/are-they-the-same/javascript) 判断两个数组是否相同（Hint：every、join）- Clever
 
 ```js
 a = [121, 144, 19, 161, 19, 144, 19, 11] 
@@ -430,7 +430,7 @@ a,b = []、null...
 comp(a, b)
 ```
 
-> [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 计算数值二进制1的数量（Hint:>>=、toString）- Clever
+### [Bit Counting](https://www.codewars.com/kata/bit-counting/javascript) 计算数值二进制1的数量（Hint:>>=、toString）- Clever
 
 ```js
 1234 => 10011010010 => 5 个 1
@@ -623,7 +623,7 @@ your text: "BORN IN 2015!", shift 1
 5 "!4897 Oj oSpC"
 ```
 
-> [Simple Fun #259: Different Digits Number Search](https://www.codewars.com/kata/59113da398dcd456270000a8) 找出没重复数值的数（Hint:find、Regexp）- Clever
+### [Simple Fun #259: Different Digits Number Search](https://www.codewars.com/kata/59113da398dcd456270000a8) 找出没重复数值的数（Hint:find、Regexp）- Clever
 
 ```js
 For arr = [22, 111, 101, 124, 33, 30], the output should be 124
@@ -631,7 +631,7 @@ For arr = [22, 111, 101, 124, 33, 30], the output should be 124
 For arr = [1111, 404], the output should be -1
 ```
 
->[Simple Fun #256: Two Arrays Nth Element](https://www.codewars.com/kata/simple-fun-number-256-two-arrays-nth-element) 计算两个有序数组最小的第n个值（Hint:while、Math、Infinity）- Clever
+### [Simple Fun #256: Two Arrays Nth Element](https://www.codewars.com/kata/simple-fun-number-256-two-arrays-nth-element) 计算两个有序数组最小的第n个值（Hint:while、Math、Infinity）- Clever
 
 `莫忘Infinity`
 
@@ -640,3 +640,13 @@ twoArraysNthElement([1, 3, 4],[2, 6, 8],5) // 8
 twoArraysNthElement([1, 3, 5],[2, 4],2) // 3
 twoArraysNthElement([6,19,21,30,34,35,44,48],[3,4,5,9,14,16,25,32,36,37,41,53],11) // 32
 ```
+
+### [Simple arithmetic progression](https://www.codewars.com/kata/simple-arithmetic-progression/javascript) 算出长度为3的数组组合相减值相等的数量（Hint: 多个for）- Clever
+
+列出所有组合 or 直接计算数量 or 通过已得2个数值反推第3个是否存在
+
+```js
+[1, 2, 3, 5, 7, 9] ==> 5
+// [1, 2, 3], [1, 3, 5], [1, 5, 9], [3, 5, 7], and [5, 7, 9]
+```
+
