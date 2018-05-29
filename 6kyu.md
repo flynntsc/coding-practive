@@ -650,3 +650,11 @@ twoArraysNthElement([6,19,21,30,34,35,44,48],[3,4,5,9,14,16,25,32,36,37,41,53],1
 // [1, 2, 3], [1, 3, 5], [1, 5, 9], [3, 5, 7], and [5, 7, 9]
 ```
 
+### [RuplesJS #2: String Delete](https://www.codewars.com/kata/ruplesjs-number-2-string-delete/javascript) 扩展字符串的delete方法（Hint: typeof、reduce）- Good
+
+参数（支持多参数）：字符串则全局删除；正则表达式则直接替换、其他如数值则无效无视
+
+```js
+"1: Are you enjoying this kata?".delete(/[^a-z ]/gi) -> " Are you enjoying this kata"
+"1: Are you enjoying this kata?".delete("a", "?", [], /[0-9]/g) -> ": Are you enjoying this kt"
+```
